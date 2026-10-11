@@ -1,0 +1,17 @@
+{
+    "type": "function",
+    "function": {
+        "name": "cancel_event",
+        "description": "Cancel one calendar event.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "event_id": {
+                    "type": "string",
+                    "description": "Id of the event, as returned by list_events or create_event."
+                }
+            },
+            "required": ["event_id"]
+        }
+    }
+}

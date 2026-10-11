@@ -1,0 +1,40 @@
+{
+ "set": "held-out",
+ "version": "v1",
+ "seed": 20270211,
+ "tasks": 100,
+ "sha256": "49acc1e7161c5021d6cbcbb0b7d3d2314ef6f826dd0f3da64d409cdeff85e5d3",
+ "contacts_file": "agent/tools/contacts_heldout.json",
+ "contacts_sha256": "e1f19e297215d985749bd1cbd0200bbd9a24bc1ef312b77e330e22b274ba01cd",
+ "families": [
+  "cancel_fee",
+  "cancel_notify",
+  "conditional_cancel",
+  "expenses_report",
+  "lookup",
+  "move",
+  "notify_attendees",
+  "schedule_one",
+  "schedule_team",
+  "schedule_two"
+ ],
+ "tasks_per_family": 10,
+ "wording": {
+  "as_dev": 50,
+  "new": 50
+ },
+ "reference_calls_per_task": {
+  "min": 1,
+  "max": 5,
+  "mean": 2.76
+ },
+ "shared_with_development_set": {
+  "questions": 0,
+  "people": 0,
+  "contact ids": 0,
+  "event ids": 0,
+  "event titles": 0,
+  "dates": 0
+ },
+ "rule": "No model is run on this set until the models are final. Results on it are reported apart from the development set."
+}

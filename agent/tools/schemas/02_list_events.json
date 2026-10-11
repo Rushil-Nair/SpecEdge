@@ -1,0 +1,17 @@
+{
+    "type": "function",
+    "function": {
+        "name": "list_events",
+        "description": "List the user's calendar events on one date, with event ids, titles, start times, lengths and attendee contact ids.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "date": {
+                    "type": "string",
+                    "description": "The date to list, as YYYY-MM-DD."
+                }
+            },
+            "required": ["date"]
+        }
+    }
+}

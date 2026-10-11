@@ -1,0 +1,17 @@
+{
+    "type": "function",
+    "function": {
+        "name": "search_contacts",
+        "description": "Look up people in the company directory by name or by team. Returns each match with its contact id, full name, team and email.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "query": {
+                    "type": "string",
+                    "description": "A name or part of a name, or a team name such as design, sales, finance or engineering."
+                }
+            },
+            "required": ["query"]
+        }
+    }
+}

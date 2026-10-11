@@ -1,0 +1,24 @@
+{
+ "version": "v1",
+ "seed": 20261008,
+ "tasks": 100,
+ "sha256": "0d3a4a362424aee44570762c23a8b357996f803cda7f3aa62605d8e43cda8043",
+ "families": [
+  "cancel_fee",
+  "cancel_notify",
+  "conditional_cancel",
+  "expenses_report",
+  "lookup",
+  "move",
+  "notify_attendees",
+  "schedule_one",
+  "schedule_team",
+  "schedule_two"
+ ],
+ "tasks_per_family": 10,
+ "reference_calls_per_task": {
+  "min": 1,
+  "max": 4,
+  "mean": 2.64
+ }
+}

@@ -1,0 +1,26 @@
+{
+    "type": "function",
+    "function": {
+        "name": "add_expense",
+        "description": "Record one expense in the user's expense log and return its expense id.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "amount": {
+                    "type": "number",
+                    "description": "Amount spent, in the user's currency, for example 12.75."
+                },
+                "category": {
+                    "type": "string",
+                    "enum": ["travel", "meals", "equipment", "software", "other"],
+                    "description": "Expense category."
+                },
+                "note": {
+                    "type": "string",
+                    "description": "Short description of what the expense was for."
+                }
+            },
+            "required": ["amount", "category"]
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "type": "function",
+    "function": {
+        "name": "create_event",
+        "description": "Create a calendar event and return its event id.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "title": {
+                    "type": "string",
+                    "description": "Title of the event."
+                },
+                "date": {
+                    "type": "string",
+                    "description": "Date of the event, as YYYY-MM-DD."
+                },
+                "start_time": {
+                    "type": "string",
+                    "description": "Start time on a 24-hour clock, as HH:MM."
+                },
+                "duration_hours": {
+                    "type": "number",
+                    "description": "Length of the event in hours, for example 0.5 or 1.5."
+                },
+                "attendee_ids": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "description": "Contact ids of the people invited, as returned by search_contacts."
+                }
+            },
+            "required": ["title", "date", "start_time", "duration_hours"]
+        }
+    }
+}
