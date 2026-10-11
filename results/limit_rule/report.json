@@ -1,0 +1,1930 @@
+{
+ "limit": 384,
+ "rows": [
+  {
+   "file": "results/part2/base_1b_f16_v1.json",
+   "engine": "llama.cpp",
+   "set": "frozen 591",
+   "all": {
+    "tasks": 591,
+    "old_correct": 226,
+    "new_correct": 221,
+    "old_percent": 38.2,
+    "new_percent": 37.4,
+    "at_limit": 57
+   },
+   "call": {
+    "tasks": 371,
+    "old_correct": 204,
+    "new_correct": 204,
+    "old_percent": 55.0,
+    "new_percent": 55.0,
+    "at_limit": 14
+   },
+   "ask": {
+    "tasks": 130,
+    "old_correct": 3,
+    "new_correct": 1,
+    "old_percent": 2.3,
+    "new_percent": 0.8,
+    "at_limit": 23
+   },
+   "no_tool": {
+    "tasks": 90,
+    "old_correct": 19,
+    "new_correct": 16,
+    "old_percent": 21.1,
+    "new_percent": 17.8,
+    "at_limit": 20
+   }
+  },
+  {
+   "file": "results/part2/base_3b_f16_system_v1.json",
+   "engine": "llama.cpp",
+   "set": "frozen 591",
+   "all": {
+    "tasks": 591,
+    "old_correct": 286,
+    "new_correct": 282,
+    "old_percent": 48.4,
+    "new_percent": 47.7,
+    "at_limit": 4
+   },
+   "call": {
+    "tasks": 371,
+    "old_correct": 267,
+    "new_correct": 267,
+    "old_percent": 72.0,
+    "new_percent": 72.0,
+    "at_limit": 0
+   },
+   "ask": {
+    "tasks": 130,
+    "old_correct": 0,
+    "new_correct": 0,
+    "old_percent": 0.0,
+    "new_percent": 0.0,
+    "at_limit": 0
+   },
+   "no_tool": {
+    "tasks": 90,
+    "old_correct": 19,
+    "new_correct": 15,
+    "old_percent": 21.1,
+    "new_percent": 16.7,
+    "at_limit": 4
+   }
+  },
+  {
+   "file": "results/part2/base_3b_f16_v1.json",
+   "engine": "llama.cpp",
+   "set": "frozen 591",
+   "all": {
+    "tasks": 591,
+    "old_correct": 291,
+    "new_correct": 287,
+    "old_percent": 49.2,
+    "new_percent": 48.6,
+    "at_limit": 4
+   },
+   "call": {
+    "tasks": 371,
+    "old_correct": 272,
+    "new_correct": 272,
+    "old_percent": 73.3,
+    "new_percent": 73.3,
+    "at_limit": 0
+   },
+   "ask": {
+    "tasks": 130,
+    "old_correct": 0,
+    "new_correct": 0,
+    "old_percent": 0.0,
+    "new_percent": 0.0,
+    "at_limit": 0
+   },
+   "no_tool": {
+    "tasks": 90,
+    "old_correct": 19,
+    "new_correct": 15,
+    "old_percent": 21.1,
+    "new_percent": 16.7,
+    "at_limit": 4
+   }
+  },
+  {
+   "file": "results/part2/base_3b_f16_v1.json",
+   "engine": "llama.cpp",
+   "set": "200-task subset",
+   "all": {
+    "tasks": 200,
+    "old_correct": 92,
+    "new_correct": 90,
+    "old_percent": 46.0,
+    "new_percent": 45.0,
+    "at_limit": 2
+   },
+   "call": {
+    "tasks": 121,
+    "old_correct": 84,
+    "new_correct": 84,
+    "old_percent": 69.4,
+    "new_percent": 69.4,
+    "at_limit": 0
+   },
+   "ask": {
+    "tasks": 45,
+    "old_correct": 0,
+    "new_correct": 0,
+    "old_percent": 0.0,
+    "new_percent": 0.0,
+    "at_limit": 0
+   },
+   "no_tool": {
+    "tasks": 34,
+    "old_correct": 8,
+    "new_correct": 6,
+    "old_percent": 23.5,
+    "new_percent": 17.6,
+    "at_limit": 2
+   }
+  },
+  {
+   "file": "results/part2/mine_f16_system_v1.json",
+   "engine": "llama.cpp",
+   "set": "frozen 591",
+   "all": {
+    "tasks": 591,
+    "old_correct": 398,
+    "new_correct": 398,
+    "old_percent": 67.3,
+    "new_percent": 67.3,
+    "at_limit": 0
+   },
+   "call": {
+    "tasks": 371,
+    "old_correct": 312,
+    "new_correct": 312,
+    "old_percent": 84.1,
+    "new_percent": 84.1,
+    "at_limit": 0
+   },
+   "ask": {
+    "tasks": 130,
+    "old_correct": 29,
+    "new_correct": 29,
+    "old_percent": 22.3,
+    "new_percent": 22.3,
+    "at_limit": 0
+   },
+   "no_tool": {
+    "tasks": 90,
+    "old_correct": 57,
+    "new_correct": 57,
+    "old_percent": 63.3,
+    "new_percent": 63.3,
+    "at_limit": 0
+   }
+  },
+  {
+   "file": "results/part2/mine_f16_v1.json",
+   "engine": "llama.cpp",
+   "set": "frozen 591",
+   "all": {
+    "tasks": 591,
+    "old_correct": 364,
+    "new_correct": 364,
+    "old_percent": 61.6,
+    "new_percent": 61.6,
+    "at_limit": 0
+   },
+   "call": {
+    "tasks": 371,
+    "old_correct": 316,
+    "new_correct": 316,
+    "old_percent": 85.2,
+    "new_percent": 85.2,
+    "at_limit": 0
+   },
+   "ask": {
+    "tasks": 130,
+    "old_correct": 0,
+    "new_correct": 0,
+    "old_percent": 0.0,
+    "new_percent": 0.0,
+    "at_limit": 0
+   },
+   "no_tool": {
+    "tasks": 90,
+    "old_correct": 48,
+    "new_correct": 48,
+    "old_percent": 53.3,
+    "new_percent": 53.3,
+    "at_limit": 0
+   }
+  },
+  {
+   "file": "results/part2/mine_multistep_f16_system_v1.json",
+   "engine": "llama.cpp",
+   "set": "frozen 591",
+   "all": {
+    "tasks": 591,
+    "old_correct": 394,
+    "new_correct": 394,
+    "old_percent": 66.7,
+    "new_percent": 66.7,
+    "at_limit": 0
+   },
+   "call": {
+    "tasks": 371,
+    "old_correct": 316,
+    "new_correct": 316,
+    "old_percent": 85.2,
+    "new_percent": 85.2,
+    "at_limit": 0
+   },
+   "ask": {
+    "tasks": 130,
+    "old_correct": 27,
+    "new_correct": 27,
+    "old_percent": 20.8,
+    "new_percent": 20.8,
+    "at_limit": 0
+   },
+   "no_tool": {
+    "tasks": 90,
+    "old_correct": 51,
+    "new_correct": 51,
+    "old_percent": 56.7,
+    "new_percent": 56.7,
+    "at_limit": 0
+   }
+  },
+  {
+   "file": "results/part2/mine_multistep_f16_v1.json",
+   "engine": "llama.cpp",
+   "set": "frozen 591",
+   "all": {
+    "tasks": 591,
+    "old_correct": 391,
+    "new_correct": 391,
+    "old_percent": 66.2,
+    "new_percent": 66.2,
+    "at_limit": 0
+   },
+   "call": {
+    "tasks": 371,
+    "old_correct": 314,
+    "new_correct": 314,
+    "old_percent": 84.6,
+    "new_percent": 84.6,
+    "at_limit": 0
+   },
+   "ask": {
+    "tasks": 130,
+    "old_correct": 26,
+    "new_correct": 26,
+    "old_percent": 20.0,
+    "new_percent": 20.0,
+    "at_limit": 0
+   },
+   "no_tool": {
+    "tasks": 90,
+    "old_correct": 51,
+    "new_correct": 51,
+    "old_percent": 56.7,
+    "new_percent": 56.7,
+    "at_limit": 0
+   }
+  },
+  {
+   "file": "results/part2/mine_multistep_f16_v1.json",
+   "engine": "llama.cpp",
+   "set": "200-task subset",
+   "all": {
+    "tasks": 200,
+    "old_correct": 133,
+    "new_correct": 133,
+    "old_percent": 66.5,
+    "new_percent": 66.5,
+    "at_limit": 0
+   },
+   "call": {
+    "tasks": 121,
+    "old_correct": 101,
+    "new_correct": 101,
+    "old_percent": 83.5,
+    "new_percent": 83.5,
+    "at_limit": 0
+   },
+   "ask": {
+    "tasks": 45,
+    "old_correct": 11,
+    "new_correct": 11,
+    "old_percent": 24.4,
+    "new_percent": 24.4,
+    "at_limit": 0
+   },
+   "no_tool": {
+    "tasks": 34,
+    "old_correct": 21,
+    "new_correct": 21,
+    "old_percent": 61.8,
+    "new_percent": 61.8,
+    "at_limit": 0
+   }
+  },
+  {
+   "file": "results/part2/mine_recovery_f16_system_v1.json",
+   "engine": "llama.cpp",
+   "set": "frozen 591",
+   "all": {
+    "tasks": 591,
+    "old_correct": 389,
+    "new_correct": 389,
+    "old_percent": 65.8,
+    "new_percent": 65.8,
+    "at_limit": 0
+   },
+   "call": {
+    "tasks": 371,
+    "old_correct": 315,
+    "new_correct": 315,
+    "old_percent": 84.9,
+    "new_percent": 84.9,
+    "at_limit": 0
+   },
+   "ask": {
+    "tasks": 130,
+    "old_correct": 27,
+    "new_correct": 27,
+    "old_percent": 20.8,
+    "new_percent": 20.8,
+    "at_limit": 0
+   },
+   "no_tool": {
+    "tasks": 90,
+    "old_correct": 47,
+    "new_correct": 47,
+    "old_percent": 52.2,
+    "new_percent": 52.2,
+    "at_limit": 0
+   }
+  },
+  {
+   "file": "results/part2/mine_recovery_f16_v1.json",
+   "engine": "llama.cpp",
+   "set": "frozen 591",
+   "all": {
+    "tasks": 591,
+    "old_correct": 388,
+    "new_correct": 388,
+    "old_percent": 65.7,
+    "new_percent": 65.7,
+    "at_limit": 0
+   },
+   "call": {
+    "tasks": 371,
+    "old_correct": 316,
+    "new_correct": 316,
+    "old_percent": 85.2,
+    "new_percent": 85.2,
+    "at_limit": 0
+   },
+   "ask": {
+    "tasks": 130,
+    "old_correct": 26,
+    "new_correct": 26,
+    "old_percent": 20.0,
+    "new_percent": 20.0,
+    "at_limit": 0
+   },
+   "no_tool": {
+    "tasks": 90,
+    "old_correct": 46,
+    "new_correct": 46,
+    "old_percent": 51.1,
+    "new_percent": 51.1,
+    "at_limit": 0
+   }
+  },
+  {
+   "file": "results/part2/mine_recovery_f16_v1.json",
+   "engine": "llama.cpp",
+   "set": "200-task subset",
+   "all": {
+    "tasks": 200,
+    "old_correct": 130,
+    "new_correct": 130,
+    "old_percent": 65.0,
+    "new_percent": 65.0,
+    "at_limit": 0
+   },
+   "call": {
+    "tasks": 121,
+    "old_correct": 100,
+    "new_correct": 100,
+    "old_percent": 82.6,
+    "new_percent": 82.6,
+    "at_limit": 0
+   },
+   "ask": {
+    "tasks": 45,
+    "old_correct": 11,
+    "new_correct": 11,
+    "old_percent": 24.4,
+    "new_percent": 24.4,
+    "at_limit": 0
+   },
+   "no_tool": {
+    "tasks": 34,
+    "old_correct": 19,
+    "new_correct": 19,
+    "old_percent": 55.9,
+    "new_percent": 55.9,
+    "at_limit": 0
+   }
+  },
+  {
+   "file": "results/part2/xlam2_3b_f16_v1.json",
+   "engine": "llama.cpp",
+   "set": "frozen 591",
+   "all": {
+    "tasks": 591,
+    "old_correct": 371,
+    "new_correct": 371,
+    "old_percent": 62.8,
+    "new_percent": 62.8,
+    "at_limit": 0
+   },
+   "call": {
+    "tasks": 371,
+    "old_correct": 294,
+    "new_correct": 294,
+    "old_percent": 79.2,
+    "new_percent": 79.2,
+    "at_limit": 0
+   },
+   "ask": {
+    "tasks": 130,
+    "old_correct": 36,
+    "new_correct": 36,
+    "old_percent": 27.7,
+    "new_percent": 27.7,
+    "at_limit": 0
+   },
+   "no_tool": {
+    "tasks": 90,
+    "old_correct": 41,
+    "new_correct": 41,
+    "old_percent": 45.6,
+    "new_percent": 45.6,
+    "at_limit": 0
+   }
+  },
+  {
+   "file": "results/part3/mine_F16_free_accuracy.json",
+   "engine": "llama.cpp",
+   "set": "frozen 591",
+   "all": {
+    "tasks": 591,
+    "old_correct": 364,
+    "new_correct": 364,
+    "old_percent": 61.6,
+    "new_percent": 61.6,
+    "at_limit": 0
+   },
+   "call": {
+    "tasks": 371,
+    "old_correct": 316,
+    "new_correct": 316,
+    "old_percent": 85.2,
+    "new_percent": 85.2,
+    "at_limit": 0
+   },
+   "ask": {
+    "tasks": 130,
+    "old_correct": 0,
+    "new_correct": 0,
+    "old_percent": 0.0,
+    "new_percent": 0.0,
+    "at_limit": 0
+   },
+   "no_tool": {
+    "tasks": 90,
+    "old_correct": 48,
+    "new_correct": 48,
+    "old_percent": 53.3,
+    "new_percent": 53.3,
+    "at_limit": 0
+   }
+  },
+  {
+   "file": "results/part3/mine_F16_json_accuracy.json",
+   "engine": "llama.cpp",
+   "set": "frozen 591",
+   "all": {
+    "tasks": 591,
+    "old_correct": 362,
+    "new_correct": 362,
+    "old_percent": 61.3,
+    "new_percent": 61.3,
+    "at_limit": 0
+   },
+   "call": {
+    "tasks": 371,
+    "old_correct": 314,
+    "new_correct": 314,
+    "old_percent": 84.6,
+    "new_percent": 84.6,
+    "at_limit": 0
+   },
+   "ask": {
+    "tasks": 130,
+    "old_correct": 0,
+    "new_correct": 0,
+    "old_percent": 0.0,
+    "new_percent": 0.0,
+    "at_limit": 0
+   },
+   "no_tool": {
+    "tasks": 90,
+    "old_correct": 48,
+    "new_correct": 48,
+    "old_percent": 53.3,
+    "new_percent": 53.3,
+    "at_limit": 0
+   }
+  },
+  {
+   "file": "results/part3/mine_multistep_F16_free_accuracy.json",
+   "engine": "llama.cpp",
+   "set": "frozen 591",
+   "all": {
+    "tasks": 591,
+    "old_correct": 391,
+    "new_correct": 391,
+    "old_percent": 66.2,
+    "new_percent": 66.2,
+    "at_limit": 0
+   },
+   "call": {
+    "tasks": 371,
+    "old_correct": 314,
+    "new_correct": 314,
+    "old_percent": 84.6,
+    "new_percent": 84.6,
+    "at_limit": 0
+   },
+   "ask": {
+    "tasks": 130,
+    "old_correct": 26,
+    "new_correct": 26,
+    "old_percent": 20.0,
+    "new_percent": 20.0,
+    "at_limit": 0
+   },
+   "no_tool": {
+    "tasks": 90,
+    "old_correct": 51,
+    "new_correct": 51,
+    "old_percent": 56.7,
+    "new_percent": 56.7,
+    "at_limit": 0
+   }
+  },
+  {
+   "file": "results/part3/mine_multistep_F16_json_accuracy.json",
+   "engine": "llama.cpp",
+   "set": "frozen 591",
+   "all": {
+    "tasks": 591,
+    "old_correct": 390,
+    "new_correct": 390,
+    "old_percent": 66.0,
+    "new_percent": 66.0,
+    "at_limit": 0
+   },
+   "call": {
+    "tasks": 371,
+    "old_correct": 313,
+    "new_correct": 313,
+    "old_percent": 84.4,
+    "new_percent": 84.4,
+    "at_limit": 0
+   },
+   "ask": {
+    "tasks": 130,
+    "old_correct": 26,
+    "new_correct": 26,
+    "old_percent": 20.0,
+    "new_percent": 20.0,
+    "at_limit": 0
+   },
+   "no_tool": {
+    "tasks": 90,
+    "old_correct": 51,
+    "new_correct": 51,
+    "old_percent": 56.7,
+    "new_percent": 56.7,
+    "at_limit": 0
+   }
+  },
+  {
+   "file": "results/part3/mine_multistep_Q4_0_free_accuracy.json",
+   "engine": "llama.cpp",
+   "set": "frozen 591",
+   "all": {
+    "tasks": 591,
+    "old_correct": 383,
+    "new_correct": 383,
+    "old_percent": 64.8,
+    "new_percent": 64.8,
+    "at_limit": 0
+   },
+   "call": {
+    "tasks": 371,
+    "old_correct": 309,
+    "new_correct": 309,
+    "old_percent": 83.3,
+    "new_percent": 83.3,
+    "at_limit": 0
+   },
+   "ask": {
+    "tasks": 130,
+    "old_correct": 24,
+    "new_correct": 24,
+    "old_percent": 18.5,
+    "new_percent": 18.5,
+    "at_limit": 0
+   },
+   "no_tool": {
+    "tasks": 90,
+    "old_correct": 50,
+    "new_correct": 50,
+    "old_percent": 55.6,
+    "new_percent": 55.6,
+    "at_limit": 0
+   }
+  },
+  {
+   "file": "results/part3/mine_multistep_Q4_0_json_accuracy.json",
+   "engine": "llama.cpp",
+   "set": "frozen 591",
+   "all": {
+    "tasks": 591,
+    "old_correct": 381,
+    "new_correct": 381,
+    "old_percent": 64.5,
+    "new_percent": 64.5,
+    "at_limit": 0
+   },
+   "call": {
+    "tasks": 371,
+    "old_correct": 307,
+    "new_correct": 307,
+    "old_percent": 82.7,
+    "new_percent": 82.7,
+    "at_limit": 0
+   },
+   "ask": {
+    "tasks": 130,
+    "old_correct": 24,
+    "new_correct": 24,
+    "old_percent": 18.5,
+    "new_percent": 18.5,
+    "at_limit": 0
+   },
+   "no_tool": {
+    "tasks": 90,
+    "old_correct": 50,
+    "new_correct": 50,
+    "old_percent": 55.6,
+    "new_percent": 55.6,
+    "at_limit": 0
+   }
+  },
+  {
+   "file": "results/part3/mine_multistep_Q4_K_M_free_accuracy.json",
+   "engine": "llama.cpp",
+   "set": "frozen 591",
+   "all": {
+    "tasks": 591,
+    "old_correct": 388,
+    "new_correct": 388,
+    "old_percent": 65.7,
+    "new_percent": 65.7,
+    "at_limit": 0
+   },
+   "call": {
+    "tasks": 371,
+    "old_correct": 314,
+    "new_correct": 314,
+    "old_percent": 84.6,
+    "new_percent": 84.6,
+    "at_limit": 0
+   },
+   "ask": {
+    "tasks": 130,
+    "old_correct": 24,
+    "new_correct": 24,
+    "old_percent": 18.5,
+    "new_percent": 18.5,
+    "at_limit": 0
+   },
+   "no_tool": {
+    "tasks": 90,
+    "old_correct": 50,
+    "new_correct": 50,
+    "old_percent": 55.6,
+    "new_percent": 55.6,
+    "at_limit": 0
+   }
+  },
+  {
+   "file": "results/part3/mine_multistep_Q4_K_M_json_accuracy.json",
+   "engine": "llama.cpp",
+   "set": "frozen 591",
+   "all": {
+    "tasks": 591,
+    "old_correct": 386,
+    "new_correct": 386,
+    "old_percent": 65.3,
+    "new_percent": 65.3,
+    "at_limit": 0
+   },
+   "call": {
+    "tasks": 371,
+    "old_correct": 312,
+    "new_correct": 312,
+    "old_percent": 84.1,
+    "new_percent": 84.1,
+    "at_limit": 0
+   },
+   "ask": {
+    "tasks": 130,
+    "old_correct": 24,
+    "new_correct": 24,
+    "old_percent": 18.5,
+    "new_percent": 18.5,
+    "at_limit": 0
+   },
+   "no_tool": {
+    "tasks": 90,
+    "old_correct": 50,
+    "new_correct": 50,
+    "old_percent": 55.6,
+    "new_percent": 55.6,
+    "at_limit": 0
+   }
+  },
+  {
+   "file": "results/part3/mine_multistep_Q5_K_M_free_accuracy.json",
+   "engine": "llama.cpp",
+   "set": "frozen 591",
+   "all": {
+    "tasks": 591,
+    "old_correct": 393,
+    "new_correct": 393,
+    "old_percent": 66.5,
+    "new_percent": 66.5,
+    "at_limit": 0
+   },
+   "call": {
+    "tasks": 371,
+    "old_correct": 314,
+    "new_correct": 314,
+    "old_percent": 84.6,
+    "new_percent": 84.6,
+    "at_limit": 0
+   },
+   "ask": {
+    "tasks": 130,
+    "old_correct": 27,
+    "new_correct": 27,
+    "old_percent": 20.8,
+    "new_percent": 20.8,
+    "at_limit": 0
+   },
+   "no_tool": {
+    "tasks": 90,
+    "old_correct": 52,
+    "new_correct": 52,
+    "old_percent": 57.8,
+    "new_percent": 57.8,
+    "at_limit": 0
+   }
+  },
+  {
+   "file": "results/part3/mine_multistep_Q5_K_M_json_accuracy.json",
+   "engine": "llama.cpp",
+   "set": "frozen 591",
+   "all": {
+    "tasks": 591,
+    "old_correct": 390,
+    "new_correct": 390,
+    "old_percent": 66.0,
+    "new_percent": 66.0,
+    "at_limit": 0
+   },
+   "call": {
+    "tasks": 371,
+    "old_correct": 311,
+    "new_correct": 311,
+    "old_percent": 83.8,
+    "new_percent": 83.8,
+    "at_limit": 0
+   },
+   "ask": {
+    "tasks": 130,
+    "old_correct": 27,
+    "new_correct": 27,
+    "old_percent": 20.8,
+    "new_percent": 20.8,
+    "at_limit": 0
+   },
+   "no_tool": {
+    "tasks": 90,
+    "old_correct": 52,
+    "new_correct": 52,
+    "old_percent": 57.8,
+    "new_percent": 57.8,
+    "at_limit": 0
+   }
+  },
+  {
+   "file": "results/part3/mine_multistep_Q8_0_free_accuracy.json",
+   "engine": "llama.cpp",
+   "set": "frozen 591",
+   "all": {
+    "tasks": 591,
+    "old_correct": 390,
+    "new_correct": 390,
+    "old_percent": 66.0,
+    "new_percent": 66.0,
+    "at_limit": 0
+   },
+   "call": {
+    "tasks": 371,
+    "old_correct": 313,
+    "new_correct": 313,
+    "old_percent": 84.4,
+    "new_percent": 84.4,
+    "at_limit": 0
+   },
+   "ask": {
+    "tasks": 130,
+    "old_correct": 26,
+    "new_correct": 26,
+    "old_percent": 20.0,
+    "new_percent": 20.0,
+    "at_limit": 0
+   },
+   "no_tool": {
+    "tasks": 90,
+    "old_correct": 51,
+    "new_correct": 51,
+    "old_percent": 56.7,
+    "new_percent": 56.7,
+    "at_limit": 0
+   }
+  },
+  {
+   "file": "results/part3/mine_multistep_Q8_0_json_accuracy.json",
+   "engine": "llama.cpp",
+   "set": "frozen 591",
+   "all": {
+    "tasks": 591,
+    "old_correct": 389,
+    "new_correct": 389,
+    "old_percent": 65.8,
+    "new_percent": 65.8,
+    "at_limit": 0
+   },
+   "call": {
+    "tasks": 371,
+    "old_correct": 312,
+    "new_correct": 312,
+    "old_percent": 84.1,
+    "new_percent": 84.1,
+    "at_limit": 0
+   },
+   "ask": {
+    "tasks": 130,
+    "old_correct": 26,
+    "new_correct": 26,
+    "old_percent": 20.0,
+    "new_percent": 20.0,
+    "at_limit": 0
+   },
+   "no_tool": {
+    "tasks": 90,
+    "old_correct": 51,
+    "new_correct": 51,
+    "old_percent": 56.7,
+    "new_percent": 56.7,
+    "at_limit": 0
+   }
+  },
+  {
+   "file": "results/part3/mine_Q4_0_free_accuracy.json",
+   "engine": "llama.cpp",
+   "set": "frozen 591",
+   "all": {
+    "tasks": 591,
+    "old_correct": 360,
+    "new_correct": 360,
+    "old_percent": 60.9,
+    "new_percent": 60.9,
+    "at_limit": 0
+   },
+   "call": {
+    "tasks": 371,
+    "old_correct": 311,
+    "new_correct": 311,
+    "old_percent": 83.8,
+    "new_percent": 83.8,
+    "at_limit": 0
+   },
+   "ask": {
+    "tasks": 130,
+    "old_correct": 2,
+    "new_correct": 2,
+    "old_percent": 1.5,
+    "new_percent": 1.5,
+    "at_limit": 0
+   },
+   "no_tool": {
+    "tasks": 90,
+    "old_correct": 47,
+    "new_correct": 47,
+    "old_percent": 52.2,
+    "new_percent": 52.2,
+    "at_limit": 0
+   }
+  },
+  {
+   "file": "results/part3/mine_Q4_0_json_accuracy.json",
+   "engine": "llama.cpp",
+   "set": "frozen 591",
+   "all": {
+    "tasks": 591,
+    "old_correct": 358,
+    "new_correct": 358,
+    "old_percent": 60.6,
+    "new_percent": 60.6,
+    "at_limit": 0
+   },
+   "call": {
+    "tasks": 371,
+    "old_correct": 309,
+    "new_correct": 309,
+    "old_percent": 83.3,
+    "new_percent": 83.3,
+    "at_limit": 0
+   },
+   "ask": {
+    "tasks": 130,
+    "old_correct": 2,
+    "new_correct": 2,
+    "old_percent": 1.5,
+    "new_percent": 1.5,
+    "at_limit": 0
+   },
+   "no_tool": {
+    "tasks": 90,
+    "old_correct": 47,
+    "new_correct": 47,
+    "old_percent": 52.2,
+    "new_percent": 52.2,
+    "at_limit": 0
+   }
+  },
+  {
+   "file": "results/part3/mine_Q4_K_M_free_accuracy.json",
+   "engine": "llama.cpp",
+   "set": "frozen 591",
+   "all": {
+    "tasks": 591,
+    "old_correct": 373,
+    "new_correct": 373,
+    "old_percent": 63.1,
+    "new_percent": 63.1,
+    "at_limit": 0
+   },
+   "call": {
+    "tasks": 371,
+    "old_correct": 313,
+    "new_correct": 313,
+    "old_percent": 84.4,
+    "new_percent": 84.4,
+    "at_limit": 0
+   },
+   "ask": {
+    "tasks": 130,
+    "old_correct": 6,
+    "new_correct": 6,
+    "old_percent": 4.6,
+    "new_percent": 4.6,
+    "at_limit": 0
+   },
+   "no_tool": {
+    "tasks": 90,
+    "old_correct": 54,
+    "new_correct": 54,
+    "old_percent": 60.0,
+    "new_percent": 60.0,
+    "at_limit": 0
+   }
+  },
+  {
+   "file": "results/part3/mine_Q4_K_M_json_accuracy.json",
+   "engine": "llama.cpp",
+   "set": "frozen 591",
+   "all": {
+    "tasks": 591,
+    "old_correct": 373,
+    "new_correct": 373,
+    "old_percent": 63.1,
+    "new_percent": 63.1,
+    "at_limit": 0
+   },
+   "call": {
+    "tasks": 371,
+    "old_correct": 313,
+    "new_correct": 313,
+    "old_percent": 84.4,
+    "new_percent": 84.4,
+    "at_limit": 0
+   },
+   "ask": {
+    "tasks": 130,
+    "old_correct": 6,
+    "new_correct": 6,
+    "old_percent": 4.6,
+    "new_percent": 4.6,
+    "at_limit": 0
+   },
+   "no_tool": {
+    "tasks": 90,
+    "old_correct": 54,
+    "new_correct": 54,
+    "old_percent": 60.0,
+    "new_percent": 60.0,
+    "at_limit": 0
+   }
+  },
+  {
+   "file": "results/part3/mine_Q5_K_M_free_accuracy.json",
+   "engine": "llama.cpp",
+   "set": "frozen 591",
+   "all": {
+    "tasks": 591,
+    "old_correct": 369,
+    "new_correct": 369,
+    "old_percent": 62.4,
+    "new_percent": 62.4,
+    "at_limit": 0
+   },
+   "call": {
+    "tasks": 371,
+    "old_correct": 318,
+    "new_correct": 318,
+    "old_percent": 85.7,
+    "new_percent": 85.7,
+    "at_limit": 0
+   },
+   "ask": {
+    "tasks": 130,
+    "old_correct": 1,
+    "new_correct": 1,
+    "old_percent": 0.8,
+    "new_percent": 0.8,
+    "at_limit": 0
+   },
+   "no_tool": {
+    "tasks": 90,
+    "old_correct": 50,
+    "new_correct": 50,
+    "old_percent": 55.6,
+    "new_percent": 55.6,
+    "at_limit": 0
+   }
+  },
+  {
+   "file": "results/part3/mine_Q5_K_M_json_accuracy.json",
+   "engine": "llama.cpp",
+   "set": "frozen 591",
+   "all": {
+    "tasks": 591,
+    "old_correct": 369,
+    "new_correct": 369,
+    "old_percent": 62.4,
+    "new_percent": 62.4,
+    "at_limit": 0
+   },
+   "call": {
+    "tasks": 371,
+    "old_correct": 318,
+    "new_correct": 318,
+    "old_percent": 85.7,
+    "new_percent": 85.7,
+    "at_limit": 0
+   },
+   "ask": {
+    "tasks": 130,
+    "old_correct": 1,
+    "new_correct": 1,
+    "old_percent": 0.8,
+    "new_percent": 0.8,
+    "at_limit": 0
+   },
+   "no_tool": {
+    "tasks": 90,
+    "old_correct": 50,
+    "new_correct": 50,
+    "old_percent": 55.6,
+    "new_percent": 55.6,
+    "at_limit": 0
+   }
+  },
+  {
+   "file": "results/part3/mine_Q8_0_free_accuracy.json",
+   "engine": "llama.cpp",
+   "set": "frozen 591",
+   "all": {
+    "tasks": 591,
+    "old_correct": 364,
+    "new_correct": 364,
+    "old_percent": 61.6,
+    "new_percent": 61.6,
+    "at_limit": 0
+   },
+   "call": {
+    "tasks": 371,
+    "old_correct": 316,
+    "new_correct": 316,
+    "old_percent": 85.2,
+    "new_percent": 85.2,
+    "at_limit": 0
+   },
+   "ask": {
+    "tasks": 130,
+    "old_correct": 0,
+    "new_correct": 0,
+    "old_percent": 0.0,
+    "new_percent": 0.0,
+    "at_limit": 0
+   },
+   "no_tool": {
+    "tasks": 90,
+    "old_correct": 48,
+    "new_correct": 48,
+    "old_percent": 53.3,
+    "new_percent": 53.3,
+    "at_limit": 0
+   }
+  },
+  {
+   "file": "results/part3/mine_Q8_0_json_accuracy.json",
+   "engine": "llama.cpp",
+   "set": "frozen 591",
+   "all": {
+    "tasks": 591,
+    "old_correct": 362,
+    "new_correct": 362,
+    "old_percent": 61.3,
+    "new_percent": 61.3,
+    "at_limit": 0
+   },
+   "call": {
+    "tasks": 371,
+    "old_correct": 314,
+    "new_correct": 314,
+    "old_percent": 84.6,
+    "new_percent": 84.6,
+    "at_limit": 0
+   },
+   "ask": {
+    "tasks": 130,
+    "old_correct": 0,
+    "new_correct": 0,
+    "old_percent": 0.0,
+    "new_percent": 0.0,
+    "at_limit": 0
+   },
+   "no_tool": {
+    "tasks": 90,
+    "old_correct": 48,
+    "new_correct": 48,
+    "old_percent": 53.3,
+    "new_percent": 53.3,
+    "at_limit": 0
+   }
+  },
+  {
+   "file": "results/part3/mine_recovery_F16_free_accuracy.json",
+   "engine": "llama.cpp",
+   "set": "frozen 591",
+   "all": {
+    "tasks": 591,
+    "old_correct": 388,
+    "new_correct": 388,
+    "old_percent": 65.7,
+    "new_percent": 65.7,
+    "at_limit": 0
+   },
+   "call": {
+    "tasks": 371,
+    "old_correct": 316,
+    "new_correct": 316,
+    "old_percent": 85.2,
+    "new_percent": 85.2,
+    "at_limit": 0
+   },
+   "ask": {
+    "tasks": 130,
+    "old_correct": 26,
+    "new_correct": 26,
+    "old_percent": 20.0,
+    "new_percent": 20.0,
+    "at_limit": 0
+   },
+   "no_tool": {
+    "tasks": 90,
+    "old_correct": 46,
+    "new_correct": 46,
+    "old_percent": 51.1,
+    "new_percent": 51.1,
+    "at_limit": 0
+   }
+  },
+  {
+   "file": "results/part3/mine_recovery_F16_json_accuracy.json",
+   "engine": "llama.cpp",
+   "set": "frozen 591",
+   "all": {
+    "tasks": 591,
+    "old_correct": 386,
+    "new_correct": 386,
+    "old_percent": 65.3,
+    "new_percent": 65.3,
+    "at_limit": 0
+   },
+   "call": {
+    "tasks": 371,
+    "old_correct": 314,
+    "new_correct": 314,
+    "old_percent": 84.6,
+    "new_percent": 84.6,
+    "at_limit": 0
+   },
+   "ask": {
+    "tasks": 130,
+    "old_correct": 26,
+    "new_correct": 26,
+    "old_percent": 20.0,
+    "new_percent": 20.0,
+    "at_limit": 0
+   },
+   "no_tool": {
+    "tasks": 90,
+    "old_correct": 46,
+    "new_correct": 46,
+    "old_percent": 51.1,
+    "new_percent": 51.1,
+    "at_limit": 0
+   }
+  },
+  {
+   "file": "results/part3/mine_recovery_Q4_0_free_accuracy.json",
+   "engine": "llama.cpp",
+   "set": "frozen 591",
+   "all": {
+    "tasks": 591,
+    "old_correct": 387,
+    "new_correct": 387,
+    "old_percent": 65.5,
+    "new_percent": 65.5,
+    "at_limit": 0
+   },
+   "call": {
+    "tasks": 371,
+    "old_correct": 315,
+    "new_correct": 315,
+    "old_percent": 84.9,
+    "new_percent": 84.9,
+    "at_limit": 0
+   },
+   "ask": {
+    "tasks": 130,
+    "old_correct": 24,
+    "new_correct": 24,
+    "old_percent": 18.5,
+    "new_percent": 18.5,
+    "at_limit": 0
+   },
+   "no_tool": {
+    "tasks": 90,
+    "old_correct": 48,
+    "new_correct": 48,
+    "old_percent": 53.3,
+    "new_percent": 53.3,
+    "at_limit": 0
+   }
+  },
+  {
+   "file": "results/part3/mine_recovery_Q4_0_json_accuracy.json",
+   "engine": "llama.cpp",
+   "set": "frozen 591",
+   "all": {
+    "tasks": 591,
+    "old_correct": 385,
+    "new_correct": 385,
+    "old_percent": 65.1,
+    "new_percent": 65.1,
+    "at_limit": 0
+   },
+   "call": {
+    "tasks": 371,
+    "old_correct": 313,
+    "new_correct": 313,
+    "old_percent": 84.4,
+    "new_percent": 84.4,
+    "at_limit": 0
+   },
+   "ask": {
+    "tasks": 130,
+    "old_correct": 24,
+    "new_correct": 24,
+    "old_percent": 18.5,
+    "new_percent": 18.5,
+    "at_limit": 0
+   },
+   "no_tool": {
+    "tasks": 90,
+    "old_correct": 48,
+    "new_correct": 48,
+    "old_percent": 53.3,
+    "new_percent": 53.3,
+    "at_limit": 0
+   }
+  },
+  {
+   "file": "results/part3/mine_recovery_Q4_K_M_free_accuracy.json",
+   "engine": "llama.cpp",
+   "set": "frozen 591",
+   "all": {
+    "tasks": 591,
+    "old_correct": 384,
+    "new_correct": 384,
+    "old_percent": 65.0,
+    "new_percent": 65.0,
+    "at_limit": 0
+   },
+   "call": {
+    "tasks": 371,
+    "old_correct": 315,
+    "new_correct": 315,
+    "old_percent": 84.9,
+    "new_percent": 84.9,
+    "at_limit": 0
+   },
+   "ask": {
+    "tasks": 130,
+    "old_correct": 23,
+    "new_correct": 23,
+    "old_percent": 17.7,
+    "new_percent": 17.7,
+    "at_limit": 0
+   },
+   "no_tool": {
+    "tasks": 90,
+    "old_correct": 46,
+    "new_correct": 46,
+    "old_percent": 51.1,
+    "new_percent": 51.1,
+    "at_limit": 0
+   }
+  },
+  {
+   "file": "results/part3/mine_recovery_Q4_K_M_json_accuracy.json",
+   "engine": "llama.cpp",
+   "set": "frozen 591",
+   "all": {
+    "tasks": 591,
+    "old_correct": 382,
+    "new_correct": 382,
+    "old_percent": 64.6,
+    "new_percent": 64.6,
+    "at_limit": 0
+   },
+   "call": {
+    "tasks": 371,
+    "old_correct": 313,
+    "new_correct": 313,
+    "old_percent": 84.4,
+    "new_percent": 84.4,
+    "at_limit": 0
+   },
+   "ask": {
+    "tasks": 130,
+    "old_correct": 23,
+    "new_correct": 23,
+    "old_percent": 17.7,
+    "new_percent": 17.7,
+    "at_limit": 0
+   },
+   "no_tool": {
+    "tasks": 90,
+    "old_correct": 46,
+    "new_correct": 46,
+    "old_percent": 51.1,
+    "new_percent": 51.1,
+    "at_limit": 0
+   }
+  },
+  {
+   "file": "results/part3/mine_recovery_Q5_K_M_free_accuracy.json",
+   "engine": "llama.cpp",
+   "set": "frozen 591",
+   "all": {
+    "tasks": 591,
+    "old_correct": 393,
+    "new_correct": 393,
+    "old_percent": 66.5,
+    "new_percent": 66.5,
+    "at_limit": 0
+   },
+   "call": {
+    "tasks": 371,
+    "old_correct": 317,
+    "new_correct": 317,
+    "old_percent": 85.4,
+    "new_percent": 85.4,
+    "at_limit": 0
+   },
+   "ask": {
+    "tasks": 130,
+    "old_correct": 27,
+    "new_correct": 27,
+    "old_percent": 20.8,
+    "new_percent": 20.8,
+    "at_limit": 0
+   },
+   "no_tool": {
+    "tasks": 90,
+    "old_correct": 49,
+    "new_correct": 49,
+    "old_percent": 54.4,
+    "new_percent": 54.4,
+    "at_limit": 0
+   }
+  },
+  {
+   "file": "results/part3/mine_recovery_Q5_K_M_json_accuracy.json",
+   "engine": "llama.cpp",
+   "set": "frozen 591",
+   "all": {
+    "tasks": 591,
+    "old_correct": 391,
+    "new_correct": 391,
+    "old_percent": 66.2,
+    "new_percent": 66.2,
+    "at_limit": 0
+   },
+   "call": {
+    "tasks": 371,
+    "old_correct": 315,
+    "new_correct": 315,
+    "old_percent": 84.9,
+    "new_percent": 84.9,
+    "at_limit": 0
+   },
+   "ask": {
+    "tasks": 130,
+    "old_correct": 27,
+    "new_correct": 27,
+    "old_percent": 20.8,
+    "new_percent": 20.8,
+    "at_limit": 0
+   },
+   "no_tool": {
+    "tasks": 90,
+    "old_correct": 49,
+    "new_correct": 49,
+    "old_percent": 54.4,
+    "new_percent": 54.4,
+    "at_limit": 0
+   }
+  },
+  {
+   "file": "results/part3/mine_recovery_Q8_0_free_accuracy.json",
+   "engine": "llama.cpp",
+   "set": "frozen 591",
+   "all": {
+    "tasks": 591,
+    "old_correct": 388,
+    "new_correct": 388,
+    "old_percent": 65.7,
+    "new_percent": 65.7,
+    "at_limit": 0
+   },
+   "call": {
+    "tasks": 371,
+    "old_correct": 317,
+    "new_correct": 317,
+    "old_percent": 85.4,
+    "new_percent": 85.4,
+    "at_limit": 0
+   },
+   "ask": {
+    "tasks": 130,
+    "old_correct": 25,
+    "new_correct": 25,
+    "old_percent": 19.2,
+    "new_percent": 19.2,
+    "at_limit": 0
+   },
+   "no_tool": {
+    "tasks": 90,
+    "old_correct": 46,
+    "new_correct": 46,
+    "old_percent": 51.1,
+    "new_percent": 51.1,
+    "at_limit": 0
+   }
+  },
+  {
+   "file": "results/part3/mine_recovery_Q8_0_json_accuracy.json",
+   "engine": "llama.cpp",
+   "set": "frozen 591",
+   "all": {
+    "tasks": 591,
+    "old_correct": 386,
+    "new_correct": 386,
+    "old_percent": 65.3,
+    "new_percent": 65.3,
+    "at_limit": 0
+   },
+   "call": {
+    "tasks": 371,
+    "old_correct": 315,
+    "new_correct": 315,
+    "old_percent": 84.9,
+    "new_percent": 84.9,
+    "at_limit": 0
+   },
+   "ask": {
+    "tasks": 130,
+    "old_correct": 25,
+    "new_correct": 25,
+    "old_percent": 19.2,
+    "new_percent": 19.2,
+    "at_limit": 0
+   },
+   "no_tool": {
+    "tasks": 90,
+    "old_correct": 46,
+    "new_correct": 46,
+    "old_percent": 51.1,
+    "new_percent": 51.1,
+    "at_limit": 0
+   }
+  },
+  {
+   "file": "results/part12/mine_multistep_float_sub200.json",
+   "engine": "Qualcomm's full-precision model class and generator, no quantization (qai-hub-models 0.63.0)",
+   "set": "200-task subset",
+   "all": {
+    "tasks": 200,
+    "old_correct": 134,
+    "new_correct": 134,
+    "old_percent": 67.0,
+    "new_percent": 67.0,
+    "at_limit": 0
+   },
+   "call": {
+    "tasks": 121,
+    "old_correct": 102,
+    "new_correct": 102,
+    "old_percent": 84.3,
+    "new_percent": 84.3,
+    "at_limit": 0
+   },
+   "ask": {
+    "tasks": 45,
+    "old_correct": 11,
+    "new_correct": 11,
+    "old_percent": 24.4,
+    "new_percent": 24.4,
+    "at_limit": 0
+   },
+   "no_tool": {
+    "tasks": 34,
+    "old_correct": 21,
+    "new_correct": 21,
+    "old_percent": 61.8,
+    "new_percent": 61.8,
+    "at_limit": 0
+   }
+  },
+  {
+   "file": "results/part12/mine_multistep_w4a16_json_sub200.json",
+   "engine": "AIMET-ONNX simulation of w4a16 (qai-hub-models 0.63.0)",
+   "set": "200-task subset",
+   "all": {
+    "tasks": 200,
+    "old_correct": 129,
+    "new_correct": 129,
+    "old_percent": 64.5,
+    "new_percent": 64.5,
+    "at_limit": 0
+   },
+   "call": {
+    "tasks": 121,
+    "old_correct": 94,
+    "new_correct": 94,
+    "old_percent": 77.7,
+    "new_percent": 77.7,
+    "at_limit": 0
+   },
+   "ask": {
+    "tasks": 45,
+    "old_correct": 13,
+    "new_correct": 13,
+    "old_percent": 28.9,
+    "new_percent": 28.9,
+    "at_limit": 0
+   },
+   "no_tool": {
+    "tasks": 34,
+    "old_correct": 22,
+    "new_correct": 22,
+    "old_percent": 64.7,
+    "new_percent": 64.7,
+    "at_limit": 0
+   }
+  },
+  {
+   "file": "results/part12/mine_multistep_w4a16_sub200.json",
+   "engine": "AIMET-ONNX simulation of w4a16 (qai-hub-models 0.63.0)",
+   "set": "200-task subset",
+   "all": {
+    "tasks": 200,
+    "old_correct": 127,
+    "new_correct": 127,
+    "old_percent": 63.5,
+    "new_percent": 63.5,
+    "at_limit": 0
+   },
+   "call": {
+    "tasks": 121,
+    "old_correct": 92,
+    "new_correct": 92,
+    "old_percent": 76.0,
+    "new_percent": 76.0,
+    "at_limit": 0
+   },
+   "ask": {
+    "tasks": 45,
+    "old_correct": 13,
+    "new_correct": 13,
+    "old_percent": 28.9,
+    "new_percent": 28.9,
+    "at_limit": 0
+   },
+   "no_tool": {
+    "tasks": 34,
+    "old_correct": 22,
+    "new_correct": 22,
+    "old_percent": 64.7,
+    "new_percent": 64.7,
+    "at_limit": 0
+   }
+  },
+  {
+   "file": "results/part12/mine_multistep_w4a16_toolcal_json_sub200.json",
+   "engine": "AIMET-ONNX simulation of w4a16 (qai-hub-models 0.63.0)",
+   "set": "200-task subset",
+   "all": {
+    "tasks": 200,
+    "old_correct": 132,
+    "new_correct": 132,
+    "old_percent": 66.0,
+    "new_percent": 66.0,
+    "at_limit": 0
+   },
+   "call": {
+    "tasks": 121,
+    "old_correct": 98,
+    "new_correct": 98,
+    "old_percent": 81.0,
+    "new_percent": 81.0,
+    "at_limit": 0
+   },
+   "ask": {
+    "tasks": 45,
+    "old_correct": 12,
+    "new_correct": 12,
+    "old_percent": 26.7,
+    "new_percent": 26.7,
+    "at_limit": 0
+   },
+   "no_tool": {
+    "tasks": 34,
+    "old_correct": 22,
+    "new_correct": 22,
+    "old_percent": 64.7,
+    "new_percent": 64.7,
+    "at_limit": 0
+   }
+  },
+  {
+   "file": "results/part12/mine_multistep_w4a16_toolcal_sub200.json",
+   "engine": "AIMET-ONNX simulation of w4a16 (qai-hub-models 0.63.0)",
+   "set": "200-task subset",
+   "all": {
+    "tasks": 200,
+    "old_correct": 131,
+    "new_correct": 131,
+    "old_percent": 65.5,
+    "new_percent": 65.5,
+    "at_limit": 0
+   },
+   "call": {
+    "tasks": 121,
+    "old_correct": 97,
+    "new_correct": 97,
+    "old_percent": 80.2,
+    "new_percent": 80.2,
+    "at_limit": 0
+   },
+   "ask": {
+    "tasks": 45,
+    "old_correct": 12,
+    "new_correct": 12,
+    "old_percent": 26.7,
+    "new_percent": 26.7,
+    "at_limit": 0
+   },
+   "no_tool": {
+    "tasks": 34,
+    "old_correct": 22,
+    "new_correct": 22,
+    "old_percent": 64.7,
+    "new_percent": 64.7,
+    "at_limit": 0
+   }
+  },
+  {
+   "file": "results/part12/mine_recovery_float_sub200.json",
+   "engine": "Qualcomm's full-precision model class and generator, no quantization (qai-hub-models 0.63.0)",
+   "set": "200-task subset",
+   "all": {
+    "tasks": 200,
+    "old_correct": 130,
+    "new_correct": 130,
+    "old_percent": 65.0,
+    "new_percent": 65.0,
+    "at_limit": 0
+   },
+   "call": {
+    "tasks": 121,
+    "old_correct": 100,
+    "new_correct": 100,
+    "old_percent": 82.6,
+    "new_percent": 82.6,
+    "at_limit": 0
+   },
+   "ask": {
+    "tasks": 45,
+    "old_correct": 11,
+    "new_correct": 11,
+    "old_percent": 24.4,
+    "new_percent": 24.4,
+    "at_limit": 0
+   },
+   "no_tool": {
+    "tasks": 34,
+    "old_correct": 19,
+    "new_correct": 19,
+    "old_percent": 55.9,
+    "new_percent": 55.9,
+    "at_limit": 0
+   }
+  },
+  {
+   "file": "results/part12/mine_recovery_w4a16_toolcal_json_sub200.json",
+   "engine": "AIMET-ONNX simulation of w4a16 (qai-hub-models 0.63.0)",
+   "set": "200-task subset",
+   "all": {
+    "tasks": 200,
+    "old_correct": 125,
+    "new_correct": 125,
+    "old_percent": 62.5,
+    "new_percent": 62.5,
+    "at_limit": 0
+   },
+   "call": {
+    "tasks": 121,
+    "old_correct": 93,
+    "new_correct": 93,
+    "old_percent": 76.9,
+    "new_percent": 76.9,
+    "at_limit": 0
+   },
+   "ask": {
+    "tasks": 45,
+    "old_correct": 13,
+    "new_correct": 13,
+    "old_percent": 28.9,
+    "new_percent": 28.9,
+    "at_limit": 0
+   },
+   "no_tool": {
+    "tasks": 34,
+    "old_correct": 19,
+    "new_correct": 19,
+    "old_percent": 55.9,
+    "new_percent": 55.9,
+    "at_limit": 0
+   }
+  },
+  {
+   "file": "results/part12/stock_3b_float_sub200.json",
+   "engine": "Qualcomm's full-precision model class and generator, no quantization (qai-hub-models 0.63.0)",
+   "set": "200-task subset",
+   "all": {
+    "tasks": 200,
+    "old_correct": 84,
+    "new_correct": 84,
+    "old_percent": 42.0,
+    "new_percent": 42.0,
+    "at_limit": 0
+   },
+   "call": {
+    "tasks": 121,
+    "old_correct": 84,
+    "new_correct": 84,
+    "old_percent": 69.4,
+    "new_percent": 69.4,
+    "at_limit": 0
+   },
+   "ask": {
+    "tasks": 45,
+    "old_correct": 0,
+    "new_correct": 0,
+    "old_percent": 0.0,
+    "new_percent": 0.0,
+    "at_limit": 0
+   },
+   "no_tool": {
+    "tasks": 34,
+    "old_correct": 0,
+    "new_correct": 0,
+    "old_percent": 0.0,
+    "new_percent": 0.0,
+    "at_limit": 0
+   }
+  },
+  {
+   "file": "results/part12/stock_3b_w4a16_sub200.json",
+   "engine": "AIMET-ONNX simulation of w4a16 (qai-hub-models 0.63.0)",
+   "set": "200-task subset",
+   "all": {
+    "tasks": 200,
+    "old_correct": 68,
+    "new_correct": 68,
+    "old_percent": 34.0,
+    "new_percent": 34.0,
+    "at_limit": 0
+   },
+   "call": {
+    "tasks": 121,
+    "old_correct": 68,
+    "new_correct": 68,
+    "old_percent": 56.2,
+    "new_percent": 56.2,
+    "at_limit": 0
+   },
+   "ask": {
+    "tasks": 45,
+    "old_correct": 0,
+    "new_correct": 0,
+    "old_percent": 0.0,
+    "new_percent": 0.0,
+    "at_limit": 0
+   },
+   "no_tool": {
+    "tasks": 34,
+    "old_correct": 0,
+    "new_correct": 0,
+    "old_percent": 0.0,
+    "new_percent": 0.0,
+    "at_limit": 0
+   }
+  }
+ ],
+ "notes": []
+}

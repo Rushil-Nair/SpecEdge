@@ -1,0 +1,542 @@
+[
+ {
+  "file": "results/part2/base_1b_f16_v1.json",
+  "gguf": "Llama-3.2-1B-Instruct-F16.gguf",
+  "tools_in": "user",
+  "forced": false,
+  "rows": 591,
+  "ids": [
+   "when2call-36b8abb4-8f78-4682-87a2-0ae0d69e3ac7",
+   "when2call-342fae40-60f5-4b4a-acce-3a0e7e5f0428",
+   "when2call-716f6aac-aa55-4e66-8db6-cff019b64bde",
+   "when2call-7a0d842b-d0c6-45ca-8827-7b45ec402ac4",
+   "xlam-54643",
+   "when2call-92176359-4bb9-48d4-aae4-b3eecd33e6cd",
+   "xlam-55207",
+   "when2call-0eb950a2-8f0a-4526-8813-e613d0005f16",
+   "when2call-5ca6a9b8-3845-41b9-8e09-5b2b39ea1f3a",
+   "when2call-103dcc84-69a4-4ff7-a257-ee9a2e15887c",
+   "xlam-42416",
+   "when2call-bdd32895-bcdd-43fb-992f-2711e658e257",
+   "when2call-8840dd56-cb1a-43f4-bc02-b8f20da45279",
+   "when2call-98c6edb3-7a25-4495-923d-ac5820cad744",
+   "xlam-58118",
+   "when2call-836008de-6654-4229-acad-bdd83795ac29",
+   "when2call-42accc7c-eb68-43ea-b164-fc633cf38bfa",
+   "when2call-f4026cca-f1f4-45f0-bea0-f973da822249",
+   "when2call-50c0c7c3-1659-4ee2-a93b-a798ce8e2d50",
+   "when2call-0a712c62-f16d-47ce-9f89-e47e80d4037b",
+   "when2call-d43efdac-89f9-4b31-adec-6d65fc156a4f",
+   "when2call-9ce3bb5b-0082-4734-9c65-9ed2d46192da",
+   "xlam-39199",
+   "xlam-38052",
+   "when2call-ea21dde5-f957-4511-89c4-ef375f574977",
+   "when2call-518d849f-c59d-49ed-9c5e-ef8e77bc4918",
+   "when2call-fff8753b-22d7-4304-b69a-a01cb339f2ad",
+   "when2call-acd1d476-c00d-4979-879f-7aa1de017b36",
+   "xlam-27903",
+   "when2call-b258e851-f3b0-42b0-b337-98bedfbac853",
+   "xlam-59196",
+   "when2call-5e7ecb21-099b-45eb-9f18-7acb25a14262",
+   "when2call-0e3be8aa-9fc9-429c-829d-c431974eea0b",
+   "when2call-62f72980-e773-4d7e-955f-f7a96d4d8fc5",
+   "when2call-16ca22c7-f666-4fe9-b331-ff1a8c1cc799",
+   "when2call-1e60cc83-b8d2-47c5-b38a-e1fd2cc2b6da",
+   "xlam-42257",
+   "when2call-6f9d6e90-faf1-492f-9221-a78d55118bf4",
+   "xlam-10142",
+   "xlam-28141",
+   "xlam-27881",
+   "when2call-233a2d44-119b-470e-afba-4430973d219f",
+   "when2call-f0e4c8e0-b9ca-4b13-875f-41482ca932ae",
+   "when2call-5c4c730d-6442-4c25-a5f4-3bcc56ab8375",
+   "when2call-362ccc07-afc8-48f6-b354-1e8f59d6bbb9",
+   "when2call-474e1e8c-889c-43e2-aa39-cb61f21af105",
+   "when2call-4b0d8a2d-36bf-42b0-be3e-ea87c61f05d3",
+   "xlam-32664",
+   "when2call-8543b8d7-547b-43e4-a56c-05a1f45ec3a9",
+   "when2call-6d2b99c6-0877-48f0-8144-49966cac6251",
+   "when2call-729baacd-3ef9-4128-bc0c-2e0fbde120e8",
+   "xlam-20160",
+   "when2call-0ffe80f6-861d-4caa-a015-a076caa02372",
+   "when2call-013464cf-3f36-40e1-80f4-252d2cc91e71",
+   "xlam-54144",
+   "when2call-dfc9a0d3-2c45-43fe-991a-a216bcaed71b",
+   "xlam-33762",
+   "xlam-53527",
+   "when2call-08563248-3949-4f93-8f1c-c9823776b94f",
+   "when2call-dd864261-7358-48c7-9d42-544d4c7fa0c6",
+   "when2call-e02510f1-673b-4807-b8ea-0d650d29dc09",
+   "when2call-aac4160b-ce18-45c7-9ce7-05eebfb04c06",
+   "when2call-c9ec6ff9-6a22-4af2-aac0-4186da9ffafe",
+   "when2call-ec687c3e-6b45-43dc-9fcd-0ebbd2a4e28c",
+   "when2call-d2b741ad-4770-4ca4-b7de-3458e274a464",
+   "xlam-36533",
+   "xlam-31708",
+   "xlam-9233",
+   "xlam-49161",
+   "when2call-2361a4b2-2425-4cf0-9cae-268232c8de4f",
+   "when2call-19de9137-bf87-4695-bcb2-be8c022e115a",
+   "xlam-52749",
+   "when2call-84b13041-244f-4911-a24f-1778404cd661",
+   "when2call-286b9d92-d894-443c-86b1-200aa8cfaaed",
+   "when2call-58cace83-cc46-4145-91bd-659acedd63e0",
+   "when2call-36a14b9e-48d7-48b1-8bb1-a68b7ddba74f",
+   "when2call-44d484d9-e6a2-4e7b-8fba-86f4fb336fa8",
+   "xlam-16950",
+   "when2call-4cee0bbc-74c5-4a5d-8292-d3003bfaa555",
+   "when2call-bc955199-4c5a-4a91-b262-8260987228c4",
+   "xlam-51276",
+   "when2call-92e3bed2-8c18-4875-bf00-a4cd99c0eab7",
+   "xlam-56803",
+   "when2call-6f42dab9-e5e9-4e20-9479-6a2545a39aac",
+   "xlam-25516",
+   "when2call-9a9b3708-30a7-4e63-937e-f0293957b7f8",
+   "when2call-1ec429c4-7923-4e85-9a26-f82576130986",
+   "when2call-e59bfb95-6f7d-4e0f-9e3a-7f0215c5105a",
+   "when2call-9fd55e77-60ab-45f6-ae2a-d7d09f373e2a",
+   "when2call-92fd79d3-262e-40a1-a9dd-27c123602644",
+   "when2call-98fbad0f-faf7-47ae-affb-f0ab1a0c86a3",
+   "when2call-70fcd000-1ba1-45a2-b99f-617f1b0d8634",
+   "when2call-8d68b1da-e3b8-4db8-a3c2-b2897a77d65f",
+   "when2call-45bbc682-d1b5-4aa7-b5ad-ebabb2024005",
+   "when2call-ebaf487b-00d6-4f7c-8c28-bb22d8072385",
+   "when2call-7a31a1ca-7d23-4521-9b1a-861aee3d64c5",
+   "xlam-3366",
+   "xlam-46180",
+   "when2call-0631032b-5a30-444e-b19a-184796c27426",
+   "xlam-21480",
+   "when2call-47207221-e048-497a-885f-23d22bac3c5f",
+   "when2call-1733e344-c037-45c4-ae0e-c445d5fbc828",
+   "when2call-eceffaf5-93c3-412b-b5b9-680943d0e560",
+   "when2call-3b34862d-559a-4681-806a-6141ef99b3a1",
+   "when2call-31d9bf4f-98b9-4533-91f0-6e2ee624e403",
+   "when2call-90ad886b-918e-430b-a779-96b2c043e55a",
+   "when2call-4de13859-dc33-4219-a298-3e5bb37e6ae3",
+   "when2call-8c1247a7-72b3-4388-b4eb-c9fc75f19584",
+   "when2call-2259eb78-a924-4a81-8c9d-94d8107a3199",
+   "when2call-0499e532-92e8-454d-9d0a-1236298a9c6c",
+   "when2call-6a5153bb-81de-43ec-8eb4-8539ad510a6d",
+   "when2call-e1146fb3-e64a-4d49-94a7-4eeb2c4a718b",
+   "when2call-870d627c-796a-4671-a031-b3f85672b42e",
+   "xlam-40252",
+   "when2call-2fcb1505-27ae-4657-baaa-58ea5075f2f0",
+   "when2call-1cac3f97-2f54-4022-8303-6ff11d77b0a2",
+   "when2call-bea181f2-b003-470d-b6e6-513a35128504",
+   "when2call-99f7e991-afe9-4ae1-a39b-6bffc39669d7",
+   "when2call-27a79f48-a9d9-410c-896e-fba8de4f22b2",
+   "when2call-05eff332-e4cf-45f3-980f-c916ed8ce382",
+   "when2call-f69b320e-72b6-4027-a5fa-10083b3065b7",
+   "when2call-c14a2971-a71c-47f3-867f-afe8590b54a4",
+   "when2call-588f8cc5-9488-4a8c-b49f-847d8966750c"
+  ]
+ },
+ {
+  "file": "results/part2/base_3b_f16_system_v1.json",
+  "gguf": "Llama-3.2-3B-Instruct-F16.gguf",
+  "tools_in": "system",
+  "forced": false,
+  "rows": 591,
+  "ids": [
+   "when2call-342fae40-60f5-4b4a-acce-3a0e7e5f0428",
+   "when2call-92176359-4bb9-48d4-aae4-b3eecd33e6cd",
+   "when2call-bdd32895-bcdd-43fb-992f-2711e658e257",
+   "when2call-42accc7c-eb68-43ea-b164-fc633cf38bfa",
+   "xlam-38052",
+   "when2call-fff8753b-22d7-4304-b69a-a01cb339f2ad",
+   "when2call-b258e851-f3b0-42b0-b337-98bedfbac853",
+   "when2call-5e7ecb21-099b-45eb-9f18-7acb25a14262",
+   "when2call-1e60cc83-b8d2-47c5-b38a-e1fd2cc2b6da",
+   "when2call-8543b8d7-547b-43e4-a56c-05a1f45ec3a9",
+   "when2call-729baacd-3ef9-4128-bc0c-2e0fbde120e8",
+   "xlam-16950",
+   "when2call-92e3bed2-8c18-4875-bf00-a4cd99c0eab7",
+   "when2call-1c177ab0-c9a0-4779-b5e0-d39b182712bc",
+   "when2call-45bbc682-d1b5-4aa7-b5ad-ebabb2024005",
+   "xlam-46180",
+   "xlam-21480",
+   "when2call-2259eb78-a924-4a81-8c9d-94d8107a3199",
+   "when2call-0c4134f3-d7ba-4da4-903b-3197a7b39e85",
+   "when2call-bea181f2-b003-470d-b6e6-513a35128504",
+   "when2call-27a79f48-a9d9-410c-896e-fba8de4f22b2"
+  ]
+ },
+ {
+  "file": "results/part2/base_3b_f16_v1.json",
+  "gguf": "Llama-3.2-3B-Instruct-F16.gguf",
+  "tools_in": "user",
+  "forced": false,
+  "rows": 591,
+  "ids": [
+   "when2call-342fae40-60f5-4b4a-acce-3a0e7e5f0428",
+   "when2call-7a0d842b-d0c6-45ca-8827-7b45ec402ac4",
+   "when2call-92176359-4bb9-48d4-aae4-b3eecd33e6cd",
+   "when2call-bdd32895-bcdd-43fb-992f-2711e658e257",
+   "when2call-b217a098-a785-436c-a5e9-259623e48b3b",
+   "when2call-42accc7c-eb68-43ea-b164-fc633cf38bfa",
+   "xlam-38052",
+   "when2call-fff8753b-22d7-4304-b69a-a01cb339f2ad",
+   "when2call-b258e851-f3b0-42b0-b337-98bedfbac853",
+   "when2call-5e7ecb21-099b-45eb-9f18-7acb25a14262",
+   "when2call-1e60cc83-b8d2-47c5-b38a-e1fd2cc2b6da",
+   "when2call-8543b8d7-547b-43e4-a56c-05a1f45ec3a9",
+   "when2call-729baacd-3ef9-4128-bc0c-2e0fbde120e8",
+   "xlam-52749",
+   "when2call-92e3bed2-8c18-4875-bf00-a4cd99c0eab7",
+   "xlam-25516",
+   "when2call-1c177ab0-c9a0-4779-b5e0-d39b182712bc",
+   "when2call-45bbc682-d1b5-4aa7-b5ad-ebabb2024005",
+   "xlam-46180",
+   "xlam-21480",
+   "when2call-2259eb78-a924-4a81-8c9d-94d8107a3199",
+   "when2call-0c4134f3-d7ba-4da4-903b-3197a7b39e85",
+   "xlam-40252",
+   "when2call-bea181f2-b003-470d-b6e6-513a35128504",
+   "when2call-27a79f48-a9d9-410c-896e-fba8de4f22b2"
+  ]
+ },
+ {
+  "file": "results/part2/mine_f16_system_v1.json",
+  "gguf": "mine-F16.gguf",
+  "tools_in": "system",
+  "forced": false,
+  "rows": 591,
+  "ids": [
+   "xlam-38052",
+   "when2call-4cee0bbc-74c5-4a5d-8292-d3003bfaa555",
+   "when2call-92e3bed2-8c18-4875-bf00-a4cd99c0eab7",
+   "when2call-3a6e69c0-917b-4eea-8ef2-4e75b19ffb8c",
+   "xlam-21480",
+   "when2call-47207221-e048-497a-885f-23d22bac3c5f",
+   "when2call-99f7e991-afe9-4ae1-a39b-6bffc39669d7"
+  ]
+ },
+ {
+  "file": "results/part2/mine_f16_v1.json",
+  "gguf": "mine-F16.gguf",
+  "tools_in": "user",
+  "forced": false,
+  "rows": 591,
+  "ids": [
+   "xlam-38052",
+   "when2call-4cee0bbc-74c5-4a5d-8292-d3003bfaa555",
+   "when2call-92e3bed2-8c18-4875-bf00-a4cd99c0eab7",
+   "xlam-21480",
+   "when2call-99f7e991-afe9-4ae1-a39b-6bffc39669d7"
+  ]
+ },
+ {
+  "file": "results/part2/mine_multistep_f16_system_v1.json",
+  "gguf": "mine_multistep-F16.gguf",
+  "tools_in": "system",
+  "forced": false,
+  "rows": 591,
+  "ids": [
+   "when2call-92e3bed2-8c18-4875-bf00-a4cd99c0eab7",
+   "when2call-45bbc682-d1b5-4aa7-b5ad-ebabb2024005",
+   "xlam-21480",
+   "when2call-527cdb3c-6636-42cc-9fbd-045533fbdfa9"
+  ]
+ },
+ {
+  "file": "results/part2/mine_multistep_f16_v1.json",
+  "gguf": "mine_multistep-F16.gguf",
+  "tools_in": "user",
+  "forced": false,
+  "rows": 591,
+  "ids": [
+   "xlam-38052",
+   "when2call-92e3bed2-8c18-4875-bf00-a4cd99c0eab7",
+   "when2call-45bbc682-d1b5-4aa7-b5ad-ebabb2024005",
+   "xlam-21480",
+   "when2call-527cdb3c-6636-42cc-9fbd-045533fbdfa9"
+  ]
+ },
+ {
+  "file": "results/part2/xlam2_3b_f16_v1.json",
+  "gguf": "xLAM-2-3B-fc-r-F16.gguf",
+  "tools_in": "user",
+  "forced": false,
+  "rows": 591,
+  "ids": [
+   "when2call-f6abe174-dbab-4001-b362-5cf1a56bc95a",
+   "xlam-38052",
+   "when2call-50f2e224-dcf4-45ce-9283-03b543cddf54",
+   "when2call-6f9d6e90-faf1-492f-9221-a78d55118bf4",
+   "when2call-92e3bed2-8c18-4875-bf00-a4cd99c0eab7",
+   "xlam-21480",
+   "when2call-0c4134f3-d7ba-4da4-903b-3197a7b39e85",
+   "when2call-1cac3f97-2f54-4022-8303-6ff11d77b0a2"
+  ]
+ },
+ {
+  "file": "results/part3/mine_F16_free_accuracy.json",
+  "gguf": "mine-F16.gguf",
+  "tools_in": "user",
+  "forced": false,
+  "rows": 591,
+  "ids": [
+   "xlam-38052",
+   "when2call-4cee0bbc-74c5-4a5d-8292-d3003bfaa555",
+   "when2call-92e3bed2-8c18-4875-bf00-a4cd99c0eab7",
+   "xlam-21480",
+   "when2call-99f7e991-afe9-4ae1-a39b-6bffc39669d7"
+  ]
+ },
+ {
+  "file": "results/part3/mine_F16_json_accuracy.json",
+  "gguf": "mine-F16.gguf",
+  "tools_in": "user",
+  "forced": true,
+  "rows": 591,
+  "ids": [
+   "xlam-38052",
+   "when2call-c9ec6ff9-6a22-4af2-aac0-4186da9ffafe",
+   "when2call-4cee0bbc-74c5-4a5d-8292-d3003bfaa555",
+   "when2call-92e3bed2-8c18-4875-bf00-a4cd99c0eab7",
+   "xlam-21480"
+  ]
+ },
+ {
+  "file": "results/part3/mine_multistep_F16_free_accuracy.json",
+  "gguf": "mine_multistep-F16.gguf",
+  "tools_in": "user",
+  "forced": false,
+  "rows": 591,
+  "ids": [
+   "xlam-38052",
+   "when2call-92e3bed2-8c18-4875-bf00-a4cd99c0eab7",
+   "when2call-45bbc682-d1b5-4aa7-b5ad-ebabb2024005",
+   "xlam-21480",
+   "when2call-527cdb3c-6636-42cc-9fbd-045533fbdfa9"
+  ]
+ },
+ {
+  "file": "results/part3/mine_multistep_F16_json_accuracy.json",
+  "gguf": "mine_multistep-F16.gguf",
+  "tools_in": "user",
+  "forced": true,
+  "rows": 591,
+  "ids": [
+   "xlam-38052",
+   "when2call-92e3bed2-8c18-4875-bf00-a4cd99c0eab7",
+   "when2call-45bbc682-d1b5-4aa7-b5ad-ebabb2024005",
+   "xlam-21480",
+   "when2call-527cdb3c-6636-42cc-9fbd-045533fbdfa9"
+  ]
+ },
+ {
+  "file": "results/part3/mine_multistep_Q4_0_free_accuracy.json",
+  "gguf": "mine_multistep-Q4_0.gguf",
+  "tools_in": "user",
+  "forced": false,
+  "rows": 591,
+  "ids": [
+   "xlam-38052",
+   "when2call-92e3bed2-8c18-4875-bf00-a4cd99c0eab7",
+   "xlam-21480",
+   "when2call-527cdb3c-6636-42cc-9fbd-045533fbdfa9"
+  ]
+ },
+ {
+  "file": "results/part3/mine_multistep_Q4_0_json_accuracy.json",
+  "gguf": "mine_multistep-Q4_0.gguf",
+  "tools_in": "user",
+  "forced": true,
+  "rows": 591,
+  "ids": [
+   "xlam-38052",
+   "when2call-92e3bed2-8c18-4875-bf00-a4cd99c0eab7",
+   "xlam-21480",
+   "when2call-527cdb3c-6636-42cc-9fbd-045533fbdfa9"
+  ]
+ },
+ {
+  "file": "results/part3/mine_multistep_Q4_K_M_free_accuracy.json",
+  "gguf": "mine_multistep-Q4_K_M.gguf",
+  "tools_in": "user",
+  "forced": false,
+  "rows": 591,
+  "ids": [
+   "xlam-38052",
+   "when2call-92e3bed2-8c18-4875-bf00-a4cd99c0eab7",
+   "when2call-527cdb3c-6636-42cc-9fbd-045533fbdfa9"
+  ]
+ },
+ {
+  "file": "results/part3/mine_multistep_Q4_K_M_json_accuracy.json",
+  "gguf": "mine_multistep-Q4_K_M.gguf",
+  "tools_in": "user",
+  "forced": true,
+  "rows": 591,
+  "ids": [
+   "xlam-38052",
+   "when2call-92e3bed2-8c18-4875-bf00-a4cd99c0eab7",
+   "when2call-527cdb3c-6636-42cc-9fbd-045533fbdfa9"
+  ]
+ },
+ {
+  "file": "results/part3/mine_multistep_Q5_K_M_free_accuracy.json",
+  "gguf": "mine_multistep-Q5_K_M.gguf",
+  "tools_in": "user",
+  "forced": false,
+  "rows": 591,
+  "ids": [
+   "xlam-38052",
+   "when2call-92e3bed2-8c18-4875-bf00-a4cd99c0eab7",
+   "when2call-45bbc682-d1b5-4aa7-b5ad-ebabb2024005",
+   "xlam-21480",
+   "when2call-527cdb3c-6636-42cc-9fbd-045533fbdfa9"
+  ]
+ },
+ {
+  "file": "results/part3/mine_multistep_Q5_K_M_json_accuracy.json",
+  "gguf": "mine_multistep-Q5_K_M.gguf",
+  "tools_in": "user",
+  "forced": true,
+  "rows": 591,
+  "ids": [
+   "xlam-38052",
+   "when2call-92e3bed2-8c18-4875-bf00-a4cd99c0eab7",
+   "when2call-45bbc682-d1b5-4aa7-b5ad-ebabb2024005",
+   "xlam-21480",
+   "when2call-527cdb3c-6636-42cc-9fbd-045533fbdfa9"
+  ]
+ },
+ {
+  "file": "results/part3/mine_multistep_Q8_0_free_accuracy.json",
+  "gguf": "mine_multistep-Q8_0.gguf",
+  "tools_in": "user",
+  "forced": false,
+  "rows": 591,
+  "ids": [
+   "xlam-38052",
+   "when2call-92e3bed2-8c18-4875-bf00-a4cd99c0eab7",
+   "when2call-45bbc682-d1b5-4aa7-b5ad-ebabb2024005",
+   "xlam-21480",
+   "when2call-527cdb3c-6636-42cc-9fbd-045533fbdfa9"
+  ]
+ },
+ {
+  "file": "results/part3/mine_multistep_Q8_0_json_accuracy.json",
+  "gguf": "mine_multistep-Q8_0.gguf",
+  "tools_in": "user",
+  "forced": true,
+  "rows": 591,
+  "ids": [
+   "xlam-38052",
+   "when2call-92e3bed2-8c18-4875-bf00-a4cd99c0eab7",
+   "when2call-45bbc682-d1b5-4aa7-b5ad-ebabb2024005",
+   "xlam-21480",
+   "when2call-527cdb3c-6636-42cc-9fbd-045533fbdfa9"
+  ]
+ },
+ {
+  "file": "results/part3/mine_Q4_0_free_accuracy.json",
+  "gguf": "mine-Q4_0.gguf",
+  "tools_in": "user",
+  "forced": false,
+  "rows": 591,
+  "ids": [
+   "xlam-38052",
+   "when2call-4cee0bbc-74c5-4a5d-8292-d3003bfaa555",
+   "when2call-92e3bed2-8c18-4875-bf00-a4cd99c0eab7",
+   "xlam-21480",
+   "when2call-47207221-e048-497a-885f-23d22bac3c5f"
+  ]
+ },
+ {
+  "file": "results/part3/mine_Q4_0_json_accuracy.json",
+  "gguf": "mine-Q4_0.gguf",
+  "tools_in": "user",
+  "forced": true,
+  "rows": 591,
+  "ids": [
+   "xlam-38052",
+   "when2call-4cee0bbc-74c5-4a5d-8292-d3003bfaa555",
+   "when2call-92e3bed2-8c18-4875-bf00-a4cd99c0eab7",
+   "xlam-21480",
+   "when2call-47207221-e048-497a-885f-23d22bac3c5f"
+  ]
+ },
+ {
+  "file": "results/part3/mine_Q4_K_M_free_accuracy.json",
+  "gguf": "mine-Q4_K_M.gguf",
+  "tools_in": "user",
+  "forced": false,
+  "rows": 591,
+  "ids": [
+   "xlam-38052",
+   "when2call-92e3bed2-8c18-4875-bf00-a4cd99c0eab7",
+   "xlam-21480"
+  ]
+ },
+ {
+  "file": "results/part3/mine_Q4_K_M_json_accuracy.json",
+  "gguf": "mine-Q4_K_M.gguf",
+  "tools_in": "user",
+  "forced": true,
+  "rows": 591,
+  "ids": [
+   "xlam-38052",
+   "when2call-c9ec6ff9-6a22-4af2-aac0-4186da9ffafe",
+   "when2call-92e3bed2-8c18-4875-bf00-a4cd99c0eab7",
+   "xlam-21480"
+  ]
+ },
+ {
+  "file": "results/part3/mine_Q5_K_M_free_accuracy.json",
+  "gguf": "mine-Q5_K_M.gguf",
+  "tools_in": "user",
+  "forced": false,
+  "rows": 591,
+  "ids": [
+   "xlam-38052",
+   "when2call-4cee0bbc-74c5-4a5d-8292-d3003bfaa555",
+   "when2call-92e3bed2-8c18-4875-bf00-a4cd99c0eab7",
+   "xlam-21480"
+  ]
+ },
+ {
+  "file": "results/part3/mine_Q5_K_M_json_accuracy.json",
+  "gguf": "mine-Q5_K_M.gguf",
+  "tools_in": "user",
+  "forced": true,
+  "rows": 591,
+  "ids": [
+   "xlam-38052",
+   "when2call-4cee0bbc-74c5-4a5d-8292-d3003bfaa555",
+   "when2call-92e3bed2-8c18-4875-bf00-a4cd99c0eab7",
+   "xlam-21480"
+  ]
+ },
+ {
+  "file": "results/part3/mine_Q8_0_free_accuracy.json",
+  "gguf": "mine-Q8_0.gguf",
+  "tools_in": "user",
+  "forced": false,
+  "rows": 591,
+  "ids": [
+   "xlam-38052",
+   "when2call-4cee0bbc-74c5-4a5d-8292-d3003bfaa555",
+   "when2call-92e3bed2-8c18-4875-bf00-a4cd99c0eab7",
+   "xlam-21480",
+   "when2call-99f7e991-afe9-4ae1-a39b-6bffc39669d7"
+  ]
+ },
+ {
+  "file": "results/part3/mine_Q8_0_json_accuracy.json",
+  "gguf": "mine-Q8_0.gguf",
+  "tools_in": "user",
+  "forced": true,
+  "rows": 591,
+  "ids": [
+   "xlam-38052",
+   "when2call-c9ec6ff9-6a22-4af2-aac0-4186da9ffafe",
+   "when2call-4cee0bbc-74c5-4a5d-8292-d3003bfaa555",
+   "when2call-92e3bed2-8c18-4875-bf00-a4cd99c0eab7",
+   "xlam-21480",
+   "when2call-99f7e991-afe9-4ae1-a39b-6bffc39669d7"
+  ]
+ }
+]
