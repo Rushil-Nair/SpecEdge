@@ -1,0 +1,10 @@
+# Python packages for training (pip install -r training/requirements.txt).
+# Versions used: torch 2.14.1, transformers 5.19.0, peft 0.21.2 (see README).
+torch
+transformers
+peft
+datasets>=3.0      # an unpinned install picked 1.1.1, which breaks the trainer import
+accelerate
+safetensors
+sentencepiece
+huggingface_hub

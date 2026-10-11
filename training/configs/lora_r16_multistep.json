@@ -1,0 +1,28 @@
+{
+ "base_model": "/workspace/models/llama/Llama-3.2-3B-Instruct",
+ "base_model_revision": "0cb88a4f764b7a12671c53f0838cd831a0843b95",
+ "train_file": "/workspace/data/train_v2_clean/train.jsonl",
+ "max_tokens": 2048,
+ "rank": 16,
+ "alpha": 32,
+ "dropout": 0.05,
+ "target_modules": [
+  "q_proj",
+  "k_proj",
+  "v_proj",
+  "o_proj",
+  "gate_proj",
+  "up_proj",
+  "down_proj"
+ ],
+ "epochs": 2,
+ "batch_size": 4,
+ "accumulate": 4,
+ "learning_rate": 0.0002,
+ "warmup_ratio": 0.03,
+ "logging_steps": 20,
+ "save_steps": 500,
+ "seed": 2026,
+ "run_id": "lora_r16_multistep",
+ "output_dir": "/workspace/runs/lora_r16_multistep"
+}
