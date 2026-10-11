@@ -1,0 +1,120 @@
+diff -ru /workspace/llama.cpp/src/llama-context.cpp src/llama-context.cpp
+--- /workspace/llama.cpp/src/llama-context.cpp	2026-10-08 00:56:20.102128243 +0000
++++ src/llama-context.cpp	2026-10-09 04:23:11.490512986 +0000
+@@ -1418,6 +1418,21 @@
+     // in order to correctly reuse a graph, it's full topology has to be uniquely determined by these parameters
+     const auto gparams = graph_params(res, ubatch, mctx, gtype);
+ 
++    {
++        static long long sd_ubatches = 0, sd_tokens = 0, sd_hist[17] = {0};
++        sd_ubatches++;
++        sd_tokens += ubatch.n_tokens;
++        sd_hist[std::min<uint32_t>(ubatch.n_seqs_unq, 16)]++;
++        if (sd_ubatches % 2000 == 0) {
++            std::string hist, fails;
++            for (int i = 1; i <= 16; ++i) { hist += (i > 1 ? "," : "") + std::to_string(sd_hist[i]); }
++            for (int i = 0; i < llm_graph_params::RF_COUNT; ++i) { fails += (i > 0 ? "," : "") + std::to_string(llm_graph_params::llm_reuse_fail[i]); }
++            fprintf(stderr, "specedge_diag: ubatches=%lld tokens=%lld hist_n_seqs_unq=[%s] reuse_fail=[%s]\n", sd_ubatches, sd_tokens, hist.c_str(), fails.c_str()); fflush(stderr);
++        }
++    }
++    if (!graph_reuse_disable && gf_res_prev_active != res) {
++        llm_graph_params::llm_reuse_fail[llm_graph_params::RF_PREV]++;
++    }
+     if (!graph_reuse_disable && gf_res_prev_active == res && res->can_reuse(gparams)) {
+         //LLAMA_LOG_DEBUG("%s: reusing previous graph\n", __func__);
+ 
+@@ -4509,6 +4524,15 @@
+             __func__, data.t_eval_ms, data.n_eval, data.t_eval_ms / data.n_eval, 1e3 / data.t_eval_ms * data.n_eval);
+     LLAMA_LOG_INFO("%s:       total time = %10.2f ms / %5d tokens\n", __func__, (t_end_ms - data.t_start_ms), (data.n_p_eval + data.n_eval));
+     LLAMA_LOG_INFO("%s:    graphs reused = %10d\n", __func__, data.n_reused);
++    {
++        const long long * f = llm_graph_params::llm_reuse_fail;
++        std::string inputs;
++        for (const auto & [name, count] : llm_graph_params::llm_reuse_fail_input) {
++            inputs += " " + name + "=" + std::to_string(count);
++        }
++        LLAMA_LOG_INFO("%s: reuse_fail: prev=%lld equal_seqs=%lld n_tokens=%lld n_seq_tokens=%lld n_seqs=%lld n_seqs_unq=%lld mixed=%lld kind_or_data=%lld seq_ids=%lld n_outputs=%lld samplers=%lld sampler_outputs=%lld cparams_or_arch=%lld inputs=%lld | first failing input:%s\n",
++                __func__, f[0], f[1], f[2], f[3], f[4], f[5], f[6], f[7], f[8], f[9], f[10], f[11], f[12], f[13], inputs.c_str());
++    }
+ }
+ 
+ void llama_perf_context_reset(llama_context * ctx) {
+diff -ru /workspace/llama.cpp/src/llama-graph.cpp src/llama-graph.cpp
+--- /workspace/llama.cpp/src/llama-graph.cpp	2026-10-08 00:56:20.102128243 +0000
++++ src/llama-graph.cpp	2026-10-09 03:32:26.648247065 +0000
+@@ -1,3 +1,4 @@
++#include <typeinfo>
+ #include "llama-graph.h"
+ 
+ #include "llama-impl.h"
+@@ -1454,6 +1455,10 @@
+ 
+     for (auto & input : inputs) {
+         const bool cur = input->can_reuse(params);
++        if (!cur && res) {
++            llm_graph_params::llm_reuse_fail[llm_graph_params::RF_INPUTS]++;
++            llm_graph_params::llm_reuse_fail_input[typeid(*input).name()]++;
++        }
+ 
+         if (debug > 1) {
+             LLAMA_LOG_DEBUG("%s: can_reuse = %d\n", "placeholder", cur);
+diff -ru /workspace/llama.cpp/src/llama-graph.h src/llama-graph.h
+--- /workspace/llama.cpp/src/llama-graph.h	2026-10-08 00:56:20.102128243 +0000
++++ src/llama-graph.h	2026-10-09 03:32:26.645382743 +0000
+@@ -819,9 +819,20 @@
+ 
+     llm_graph_result * res;
+ 
++    // specedge diagnostic: why a step could not reuse the previous graph (first failing condition)
++    enum { RF_PREV, RF_EQUAL_SEQS, RF_N_TOKENS, RF_N_SEQ_TOKENS, RF_N_SEQS, RF_N_SEQS_UNQ, RF_MIXED, RF_KIND_OR_DATA,
++           RF_SEQ_IDS, RF_N_OUTPUTS, RF_SAMPLERS, RF_SAMPLER_OUTPUTS, RF_CPARAMS_OR_ARCH, RF_INPUTS, RF_COUNT };
++    static inline long long llm_reuse_fail[RF_COUNT] = {0};
++    static inline std::map<std::string, long long> llm_reuse_fail_input;
++
+     // return true if the "other" params would result in a graph with the same topology as with the current params
+     //   having the same topology allows us to reuse the graph in some cases
+     bool allow_reuse(const llm_graph_params & other) const {
++        const bool specedge_ok = allow_reuse_impl(other);
++        return specedge_ok;
++    }
++
++    bool allow_reuse_impl(const llm_graph_params & other) const {
+         // first check the ubatch
+         bool can_reuse_ubatch =
+             ubatch.equal_seqs() == other.ubatch.equal_seqs() &&
+@@ -838,6 +849,17 @@
+ 
+         // when we split the batch using "equal_seqs" we have to verify that the participating sequences are the same
+         //   the reason is because the set of attention streams would be different for different sequences
++        if (!can_reuse_ubatch) {
++            if      (ubatch.equal_seqs() != other.ubatch.equal_seqs()) { llm_reuse_fail[RF_EQUAL_SEQS]++; }
++            else if (ubatch.n_tokens     != other.ubatch.n_tokens)     { llm_reuse_fail[RF_N_TOKENS]++; }
++            else if (ubatch.n_seq_tokens != other.ubatch.n_seq_tokens) { llm_reuse_fail[RF_N_SEQ_TOKENS]++; }
++            else if (ubatch.n_seqs       != other.ubatch.n_seqs)       { llm_reuse_fail[RF_N_SEQS]++; }
++            else if (ubatch.n_seqs_unq   != other.ubatch.n_seqs_unq)   { llm_reuse_fail[RF_N_SEQS_UNQ]++; }
++            else if (ubatch.is_mixed()   != other.ubatch.is_mixed())   { llm_reuse_fail[RF_MIXED]++; }
++            else                                                        { llm_reuse_fail[RF_KIND_OR_DATA]++; }
++            return false;
++        }
++
+         if (can_reuse_ubatch && ubatch.equal_seqs()) {
+             if (!ubatch.data) {
+                 // if the old ubatch does not own it's data, then we cannot guarantee that it is still alive, and
+@@ -851,14 +873,17 @@
+         }
+ 
+         if (!can_reuse_ubatch) {
++            llm_reuse_fail[ubatch.data ? RF_SEQ_IDS : RF_KIND_OR_DATA]++;
+             return false;
+         }
+ 
+         if (n_outputs != other.n_outputs) {
++            llm_reuse_fail[RF_N_OUTPUTS]++;
+             return false;
+         }
+ 
+         if (!samplers_equal(samplers, other.samplers)) {
++            llm_reuse_fail[RF_SAMPLERS]++;
+             return false;
+         }
+ 

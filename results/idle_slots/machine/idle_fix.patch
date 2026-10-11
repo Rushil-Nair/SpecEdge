@@ -1,0 +1,21 @@
+--- /workspace/llama.cpp/tools/server/server-context.cpp	2026-10-08 00:56:20.113128338 +0000
++++ tools/server/server-context.cpp	2026-10-09 04:27:15.993496161 +0000
+@@ -1752,6 +1752,18 @@
+                     continue;
+                 }
+ 
++                // with one KV stream per slot, llama_decode only puts sequences with consecutive ids into
++                // one forward pass (llama_batch_allocr::split_equal, sequential = true). Take the lowest free
++                // slot so that the busy slots stay next to each other; least-recently-used scatters them
++                // and every decode step is then split into several forward passes.
++                if (!params_base.kv_unified) {
++                    if (!ret) {
++                        t_last = slot.t_last_used;
++                        ret = &slot;
++                    }
++                    continue;
++                }
++
+                 // select the current slot if the criteria match
+                 if (!ret || slot.t_last_used <= t_last) {
+                     t_last = slot.t_last_used;

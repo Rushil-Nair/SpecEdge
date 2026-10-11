@@ -1,0 +1,10 @@
+{
+  "_comment": "Server settings for the idle-slot investigation, read by serving/run_load.sh through POLICIES=. 'plain' is the plain serving policy; 'plain_kvu' adds the unified KV cache.",
+  "model": "/workspace/models/gguf/Qwen3-8B-Q4_K_M.gguf",
+  "common_args": "-ngl 99 --seed 0 --metrics",
+  "context_per_slot": 4096,
+  "policies": {
+    "plain": "",
+    "plain_kvu": "--kv-unified"
+  }
+}
