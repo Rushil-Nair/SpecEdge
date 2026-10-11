@@ -1,0 +1,16 @@
+{
+    "about": "Qwen3-8B Q4_K_M with the z-lab DFlash drafter on an RTX 5090, llama.cpp f498f864. Thresholds read off the recorded load-check runs (runtime/controller/traces/ANALYSIS.md). The third band (5 to 8 in flight, block 4) has no recorded run under load.",
+    "bands": [
+        {"max_depth": 1, "n_max": 16, "off_below": 0.10, "on_above": 0.12},
+        {"max_depth": 4, "n_max": 16, "off_below": 0.12, "on_above": 0.15},
+        {"max_depth": 8, "n_max": 4, "off_below": 0.40, "on_above": 0.45}
+    ],
+    "window_drafted": 20000,
+    "min_drafted": 400,
+    "min_probe_drafted": 32,
+    "probe_every": 4,
+    "probes_to_recover": 1,
+    "error_cooldown": 20,
+    "errors_to_latch": 3,
+    "error_window": 200
+}

@@ -1,0 +1,15 @@
+{
+    "about": "For a gateway with two llama-server instances, one with DFlash block 16 and one plain: the measured bands of qwen3_8b_dflash_b16.json without its unmeasured third band (5 to 8 in flight, block 4). Above 4 requests in flight everything goes to the plain instance. Nothing between 4 and 16 users has been recorded, so where exactly drafting stops paying is not known.",
+    "bands": [
+        {"max_depth": 1, "n_max": 16, "off_below": 0.10, "on_above": 0.12},
+        {"max_depth": 4, "n_max": 16, "off_below": 0.12, "on_above": 0.15}
+    ],
+    "window_drafted": 20000,
+    "min_drafted": 400,
+    "min_probe_drafted": 32,
+    "probe_every": 4,
+    "probes_to_recover": 1,
+    "error_cooldown": 20,
+    "errors_to_latch": 3,
+    "error_window": 200
+}
