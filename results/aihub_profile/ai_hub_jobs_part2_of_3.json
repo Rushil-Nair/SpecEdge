@@ -1,0 +1,259 @@
+{
+ "qai_hub_client": "0.56.0",
+ "device": "Samsung Galaxy S25 (Family)",
+ "part": "part2_of_3",
+ "started_unix": 1791402981.243487,
+ "uploads": {
+  "part2_of_3__prompt_ar128_cl4096_2_of_3/Llama3_2_3B_Part2_Of_3_w4a16.aimet": {
+   "model_id": "mnogejopm",
+   "seconds": 530.5
+  }
+ },
+ "compile": {
+  "part2_of_3||prompt_ar128_cl4096_2_of_3": {
+   "options": "--target_runtime qnn_dlc --qairt_version 2.45 --output_names add_29863,past_key_0_out,past_value_0_out,past_key_1_out,past_value_1_out,past_key_2_out,past_value_2_out,past_key_3_out,past_value_3_out,past_key_4_out,past_value_4_out,past_key_5_out,past_value_5_out,past_key_6_out,past_value_6_out,past_key_7_out,past_value_7_out,past_key_8_out,past_value_8_out,past_key_9_out,past_value_9_out,past_key_10_out,past_value_10_out,past_key_11_out,past_value_11_out,past_key_12_out,past_value_12_out,past_key_13_out,past_value_13_out --quantize_io --qnn_options context_enable_graphs=prompt_ar128_cl4096_2_of_3  --quantize_full_type w8a16 --quantize_io",
+   "job_id": "jp8jzrkq5",
+   "url": "https://workbench.aihub.qualcomm.com/jobs/jp8jzrkq5/",
+   "status": "SUCCESS",
+   "message": "",
+   "seconds_waited": 493.3
+  },
+  "part2_of_3||token_ar1_cl4096_2_of_3": {
+   "options": "--target_runtime qnn_dlc --qairt_version 2.45 --output_names add_29863,past_key_0_out,past_value_0_out,past_key_1_out,past_value_1_out,past_key_2_out,past_value_2_out,past_key_3_out,past_value_3_out,past_key_4_out,past_value_4_out,past_key_5_out,past_value_5_out,past_key_6_out,past_value_6_out,past_key_7_out,past_value_7_out,past_key_8_out,past_value_8_out,past_key_9_out,past_value_9_out,past_key_10_out,past_value_10_out,past_key_11_out,past_value_11_out,past_key_12_out,past_value_12_out,past_key_13_out,past_value_13_out --quantize_io --qnn_options context_enable_graphs=token_ar1_cl4096_2_of_3  --quantize_full_type w8a16 --quantize_io",
+   "job_id": "jglw389ep",
+   "url": "https://workbench.aihub.qualcomm.com/jobs/jglw389ep/",
+   "status": "SUCCESS",
+   "message": "",
+   "seconds_waited": 496.8
+  }
+ },
+ "link": {
+  "options": " --qairt_version 2.45",
+  "job_id": "j5m93k7yg",
+  "url": "https://workbench.aihub.qualcomm.com/jobs/j5m93k7yg/",
+  "status": "SUCCESS",
+  "message": "",
+  "seconds_waited": 380.6
+ },
+ "profile": {
+  "part2_of_3||prompt_ar128_cl4096_2_of_3": {
+   "options": " --qairt_version 2.45 --qnn_options context_enable_graphs=prompt_ar128_cl4096_2_of_3 --max_profiler_iterations 50",
+   "job_id": "j5m93kjyg",
+   "url": "https://workbench.aihub.qualcomm.com/jobs/j5m93kjyg/",
+   "status": "SUCCESS",
+   "message": "",
+   "seconds_waited": 246.6,
+   "execution_summary": {
+    "estimated_inference_time": 31297,
+    "estimated_inference_peak_memory": 289456128,
+    "first_load_time": 256142,
+    "first_load_peak_memory": 122707968,
+    "warm_load_time": 260970,
+    "warm_load_peak_memory": 145387520,
+    "compile_time": 0,
+    "compile_peak_memory": 0,
+    "compile_memory_increase_range": [
+     0,
+     0
+    ],
+    "compile_memory_peak_range": [
+     0,
+     0
+    ],
+    "first_load_memory_increase_range": [
+     265904,
+     10202864
+    ],
+    "first_load_memory_peak_range": [
+     4657152,
+     14594112
+    ],
+    "warm_load_memory_increase_range": [
+     9804736,
+     21219680
+    ],
+    "warm_load_memory_peak_range": [
+     16240640,
+     27655584
+    ],
+    "inference_memory_increase_range": [
+     0,
+     0
+    ],
+    "inference_memory_peak_range": [
+     62865408,
+     77371088
+    ],
+    "all_compile_times": [],
+    "all_first_load_times": [
+     256142
+    ],
+    "all_warm_load_times": [
+     260970
+    ],
+    "all_inference_times": [
+     34495,
+     33249,
+     31852,
+     34383,
+     33031,
+     33377,
+     33585,
+     33762,
+     33627,
+     33440,
+     32572,
+     32977,
+     33607,
+     33706,
+     33608,
+     33400,
+     32665,
+     32803,
+     33003,
+     31297,
+     33475,
+     33731,
+     33465,
+     33279,
+     32768,
+     33467,
+     33473,
+     33120,
+     33673,
+     33577,
+     33696,
+     33449,
+     33672,
+     33456,
+     33246,
+     33584,
+     33628,
+     33400,
+     32796,
+     33501,
+     33434,
+     33452,
+     32927,
+     31411,
+     33217,
+     33009,
+     32765,
+     32845,
+     33060,
+     33400
+    ]
+   }
+  },
+  "part2_of_3||token_ar1_cl4096_2_of_3": {
+   "options": " --qairt_version 2.45 --qnn_options context_enable_graphs=token_ar1_cl4096_2_of_3 --max_profiler_iterations 50",
+   "job_id": "jgd6o4wkp",
+   "url": "https://workbench.aihub.qualcomm.com/jobs/jgd6o4wkp/",
+   "status": "SUCCESS",
+   "message": "",
+   "seconds_waited": 287.6,
+   "execution_summary": {
+    "estimated_inference_time": 18785,
+    "estimated_inference_peak_memory": 291799040,
+    "first_load_time": 250351,
+    "first_load_peak_memory": 122560512,
+    "warm_load_time": 219876,
+    "warm_load_peak_memory": 143261696,
+    "compile_time": 0,
+    "compile_peak_memory": 0,
+    "compile_memory_increase_range": [
+     0,
+     0
+    ],
+    "compile_memory_peak_range": [
+     0,
+     0
+    ],
+    "first_load_memory_increase_range": [
+     0,
+     3711584
+    ],
+    "first_load_memory_peak_range": [
+     2506752,
+     12153232
+    ],
+    "warm_load_memory_increase_range": [
+     19917456,
+     30352752
+    ],
+    "warm_load_memory_peak_range": [
+     28549120,
+     38984416
+    ],
+    "inference_memory_increase_range": [
+     0,
+     0
+    ],
+    "inference_memory_peak_range": [
+     68513792,
+     81431088
+    ],
+    "all_compile_times": [],
+    "all_first_load_times": [
+     250351
+    ],
+    "all_warm_load_times": [
+     219876
+    ],
+    "all_inference_times": [
+     21139,
+     19953,
+     19615,
+     18921,
+     19008,
+     19575,
+     20256,
+     19128,
+     18978,
+     19172,
+     19226,
+     18785,
+     18941,
+     18824,
+     19065,
+     19539,
+     18902,
+     18868,
+     19081,
+     18936,
+     19057,
+     18988,
+     18895,
+     19201,
+     19019,
+     18854,
+     18904,
+     19118,
+     19537,
+     19317,
+     19357,
+     18828,
+     19335,
+     19550,
+     18901,
+     18909,
+     19181,
+     19375,
+     18975,
+     18950,
+     19480,
+     19210,
+     19386,
+     18876,
+     18958,
+     19183,
+     19617,
+     19179,
+     19469,
+     19258
+    ]
+   }
+  }
+ },
+ "finished_unix": 1791405416.9597669
+}

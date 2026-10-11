@@ -1,0 +1,651 @@
+{
+ "device": "Samsung Galaxy S25 (Family)",
+ "runtime": "TargetRuntime.GENIEX_QAIRT",
+ "precision": "w4a16",
+ "graphs": [
+  {
+   "component": "part3_of_3",
+   "graph": "prompt_ar128_cl4096_3_of_3",
+   "input_specs": {
+    "add_29863": [
+     [
+      1,
+      128,
+      3072
+     ],
+     "float32"
+    ],
+    "attention_mask": [
+     [
+      1,
+      1,
+      128,
+      4096
+     ],
+     "float32"
+    ],
+    "position_ids_cos": [
+     [
+      1,
+      1,
+      128,
+      64
+     ],
+     "float32"
+    ],
+    "position_ids_sin": [
+     [
+      1,
+      1,
+      128,
+      64
+     ],
+     "float32"
+    ],
+    "past_key_14_in": [
+     [
+      8,
+      1,
+      128,
+      3968
+     ],
+     "float32"
+    ],
+    "past_value_14_in": [
+     [
+      8,
+      1,
+      3968,
+      128
+     ],
+     "float32"
+    ],
+    "past_key_15_in": [
+     [
+      8,
+      1,
+      128,
+      3968
+     ],
+     "float32"
+    ],
+    "past_value_15_in": [
+     [
+      8,
+      1,
+      3968,
+      128
+     ],
+     "float32"
+    ],
+    "past_key_16_in": [
+     [
+      8,
+      1,
+      128,
+      3968
+     ],
+     "float32"
+    ],
+    "past_value_16_in": [
+     [
+      8,
+      1,
+      3968,
+      128
+     ],
+     "float32"
+    ],
+    "past_key_17_in": [
+     [
+      8,
+      1,
+      128,
+      3968
+     ],
+     "float32"
+    ],
+    "past_value_17_in": [
+     [
+      8,
+      1,
+      3968,
+      128
+     ],
+     "float32"
+    ],
+    "past_key_18_in": [
+     [
+      8,
+      1,
+      128,
+      3968
+     ],
+     "float32"
+    ],
+    "past_value_18_in": [
+     [
+      8,
+      1,
+      3968,
+      128
+     ],
+     "float32"
+    ],
+    "past_key_19_in": [
+     [
+      8,
+      1,
+      128,
+      3968
+     ],
+     "float32"
+    ],
+    "past_value_19_in": [
+     [
+      8,
+      1,
+      3968,
+      128
+     ],
+     "float32"
+    ],
+    "past_key_20_in": [
+     [
+      8,
+      1,
+      128,
+      3968
+     ],
+     "float32"
+    ],
+    "past_value_20_in": [
+     [
+      8,
+      1,
+      3968,
+      128
+     ],
+     "float32"
+    ],
+    "past_key_21_in": [
+     [
+      8,
+      1,
+      128,
+      3968
+     ],
+     "float32"
+    ],
+    "past_value_21_in": [
+     [
+      8,
+      1,
+      3968,
+      128
+     ],
+     "float32"
+    ],
+    "past_key_22_in": [
+     [
+      8,
+      1,
+      128,
+      3968
+     ],
+     "float32"
+    ],
+    "past_value_22_in": [
+     [
+      8,
+      1,
+      3968,
+      128
+     ],
+     "float32"
+    ],
+    "past_key_23_in": [
+     [
+      8,
+      1,
+      128,
+      3968
+     ],
+     "float32"
+    ],
+    "past_value_23_in": [
+     [
+      8,
+      1,
+      3968,
+      128
+     ],
+     "float32"
+    ],
+    "past_key_24_in": [
+     [
+      8,
+      1,
+      128,
+      3968
+     ],
+     "float32"
+    ],
+    "past_value_24_in": [
+     [
+      8,
+      1,
+      3968,
+      128
+     ],
+     "float32"
+    ],
+    "past_key_25_in": [
+     [
+      8,
+      1,
+      128,
+      3968
+     ],
+     "float32"
+    ],
+    "past_value_25_in": [
+     [
+      8,
+      1,
+      3968,
+      128
+     ],
+     "float32"
+    ],
+    "past_key_26_in": [
+     [
+      8,
+      1,
+      128,
+      3968
+     ],
+     "float32"
+    ],
+    "past_value_26_in": [
+     [
+      8,
+      1,
+      3968,
+      128
+     ],
+     "float32"
+    ],
+    "past_key_27_in": [
+     [
+      8,
+      1,
+      128,
+      3968
+     ],
+     "float32"
+    ],
+    "past_value_27_in": [
+     [
+      8,
+      1,
+      3968,
+      128
+     ],
+     "float32"
+    ]
+   },
+   "serialize_seconds": 1.8,
+   "source": "part3_of_3__prompt_ar128_cl4096_3_of_3/Llama3_2_3B_Part3_Of_3_w4a16.aimet",
+   "source_gb": 7.26
+  },
+  {
+   "component": "part3_of_3",
+   "graph": "token_ar1_cl4096_3_of_3",
+   "input_specs": {
+    "add_29863": [
+     [
+      1,
+      1,
+      3072
+     ],
+     "float32"
+    ],
+    "attention_mask": [
+     [
+      1,
+      1,
+      1,
+      4096
+     ],
+     "float32"
+    ],
+    "position_ids_cos": [
+     [
+      1,
+      1,
+      1,
+      64
+     ],
+     "float32"
+    ],
+    "position_ids_sin": [
+     [
+      1,
+      1,
+      1,
+      64
+     ],
+     "float32"
+    ],
+    "past_key_14_in": [
+     [
+      8,
+      1,
+      128,
+      4095
+     ],
+     "float32"
+    ],
+    "past_value_14_in": [
+     [
+      8,
+      1,
+      4095,
+      128
+     ],
+     "float32"
+    ],
+    "past_key_15_in": [
+     [
+      8,
+      1,
+      128,
+      4095
+     ],
+     "float32"
+    ],
+    "past_value_15_in": [
+     [
+      8,
+      1,
+      4095,
+      128
+     ],
+     "float32"
+    ],
+    "past_key_16_in": [
+     [
+      8,
+      1,
+      128,
+      4095
+     ],
+     "float32"
+    ],
+    "past_value_16_in": [
+     [
+      8,
+      1,
+      4095,
+      128
+     ],
+     "float32"
+    ],
+    "past_key_17_in": [
+     [
+      8,
+      1,
+      128,
+      4095
+     ],
+     "float32"
+    ],
+    "past_value_17_in": [
+     [
+      8,
+      1,
+      4095,
+      128
+     ],
+     "float32"
+    ],
+    "past_key_18_in": [
+     [
+      8,
+      1,
+      128,
+      4095
+     ],
+     "float32"
+    ],
+    "past_value_18_in": [
+     [
+      8,
+      1,
+      4095,
+      128
+     ],
+     "float32"
+    ],
+    "past_key_19_in": [
+     [
+      8,
+      1,
+      128,
+      4095
+     ],
+     "float32"
+    ],
+    "past_value_19_in": [
+     [
+      8,
+      1,
+      4095,
+      128
+     ],
+     "float32"
+    ],
+    "past_key_20_in": [
+     [
+      8,
+      1,
+      128,
+      4095
+     ],
+     "float32"
+    ],
+    "past_value_20_in": [
+     [
+      8,
+      1,
+      4095,
+      128
+     ],
+     "float32"
+    ],
+    "past_key_21_in": [
+     [
+      8,
+      1,
+      128,
+      4095
+     ],
+     "float32"
+    ],
+    "past_value_21_in": [
+     [
+      8,
+      1,
+      4095,
+      128
+     ],
+     "float32"
+    ],
+    "past_key_22_in": [
+     [
+      8,
+      1,
+      128,
+      4095
+     ],
+     "float32"
+    ],
+    "past_value_22_in": [
+     [
+      8,
+      1,
+      4095,
+      128
+     ],
+     "float32"
+    ],
+    "past_key_23_in": [
+     [
+      8,
+      1,
+      128,
+      4095
+     ],
+     "float32"
+    ],
+    "past_value_23_in": [
+     [
+      8,
+      1,
+      4095,
+      128
+     ],
+     "float32"
+    ],
+    "past_key_24_in": [
+     [
+      8,
+      1,
+      128,
+      4095
+     ],
+     "float32"
+    ],
+    "past_value_24_in": [
+     [
+      8,
+      1,
+      4095,
+      128
+     ],
+     "float32"
+    ],
+    "past_key_25_in": [
+     [
+      8,
+      1,
+      128,
+      4095
+     ],
+     "float32"
+    ],
+    "past_value_25_in": [
+     [
+      8,
+      1,
+      4095,
+      128
+     ],
+     "float32"
+    ],
+    "past_key_26_in": [
+     [
+      8,
+      1,
+      128,
+      4095
+     ],
+     "float32"
+    ],
+    "past_value_26_in": [
+     [
+      8,
+      1,
+      4095,
+      128
+     ],
+     "float32"
+    ],
+    "past_key_27_in": [
+     [
+      8,
+      1,
+      128,
+      4095
+     ],
+     "float32"
+    ],
+    "past_value_27_in": [
+     [
+      8,
+      1,
+      4095,
+      128
+     ],
+     "float32"
+    ]
+   },
+   "source": "part3_of_3__prompt_ar128_cl4096_3_of_3/Llama3_2_3B_Part3_Of_3_w4a16.aimet"
+  }
+ ],
+ "instantiate_seconds": 12.7,
+ "peak_gb_after_instantiate": 15.4,
+ "components": [
+  "part1_of_3",
+  "part2_of_3",
+  "part3_of_3"
+ ],
+ "all_graphs": [
+  [
+   "part1_of_3",
+   "prompt_ar128_cl4096_1_of_3"
+  ],
+  [
+   "part1_of_3",
+   "token_ar1_cl4096_1_of_3"
+  ],
+  [
+   "part2_of_3",
+   "prompt_ar128_cl4096_2_of_3"
+  ],
+  [
+   "part2_of_3",
+   "token_ar1_cl4096_2_of_3"
+  ],
+  [
+   "part3_of_3",
+   "prompt_ar128_cl4096_3_of_3"
+  ],
+  [
+   "part3_of_3",
+   "token_ar1_cl4096_3_of_3"
+  ]
+ ],
+ "part": "part3_of_3",
+ "compile_options": {
+  "part1_of_3||prompt_ar128_cl4096_1_of_3": "--target_runtime qnn_dlc --qairt_version 2.45 --output_names embedding --quantize_io --qnn_options context_enable_graphs=prompt_ar128_cl4096_1_of_3  --quantize_full_type w8a16 --quantize_io",
+  "part1_of_3||token_ar1_cl4096_1_of_3": "--target_runtime qnn_dlc --qairt_version 2.45 --output_names embedding --quantize_io --qnn_options context_enable_graphs=token_ar1_cl4096_1_of_3  --quantize_full_type w8a16 --quantize_io",
+  "part2_of_3||prompt_ar128_cl4096_2_of_3": "--target_runtime qnn_dlc --qairt_version 2.45 --output_names add_29863,past_key_0_out,past_value_0_out,past_key_1_out,past_value_1_out,past_key_2_out,past_value_2_out,past_key_3_out,past_value_3_out,past_key_4_out,past_value_4_out,past_key_5_out,past_value_5_out,past_key_6_out,past_value_6_out,past_key_7_out,past_value_7_out,past_key_8_out,past_value_8_out,past_key_9_out,past_value_9_out,past_key_10_out,past_value_10_out,past_key_11_out,past_value_11_out,past_key_12_out,past_value_12_out,past_key_13_out,past_value_13_out --quantize_io --qnn_options context_enable_graphs=prompt_ar128_cl4096_2_of_3  --quantize_full_type w8a16 --quantize_io",
+  "part2_of_3||token_ar1_cl4096_2_of_3": "--target_runtime qnn_dlc --qairt_version 2.45 --output_names add_29863,past_key_0_out,past_value_0_out,past_key_1_out,past_value_1_out,past_key_2_out,past_value_2_out,past_key_3_out,past_value_3_out,past_key_4_out,past_value_4_out,past_key_5_out,past_value_5_out,past_key_6_out,past_value_6_out,past_key_7_out,past_value_7_out,past_key_8_out,past_value_8_out,past_key_9_out,past_value_9_out,past_key_10_out,past_value_10_out,past_key_11_out,past_value_11_out,past_key_12_out,past_value_12_out,past_key_13_out,past_value_13_out --quantize_io --qnn_options context_enable_graphs=token_ar1_cl4096_2_of_3  --quantize_full_type w8a16 --quantize_io",
+  "part3_of_3||prompt_ar128_cl4096_3_of_3": "--target_runtime qnn_dlc --qairt_version 2.45 --output_names logits,past_key_14_out,past_value_14_out,past_key_15_out,past_value_15_out,past_key_16_out,past_value_16_out,past_key_17_out,past_value_17_out,past_key_18_out,past_value_18_out,past_key_19_out,past_value_19_out,past_key_20_out,past_value_20_out,past_key_21_out,past_value_21_out,past_key_22_out,past_value_22_out,past_key_23_out,past_value_23_out,past_key_24_out,past_value_24_out,past_key_25_out,past_value_25_out,past_key_26_out,past_value_26_out,past_key_27_out,past_value_27_out --quantize_io --qnn_options context_enable_graphs=prompt_ar128_cl4096_3_of_3  --quantize_full_type w8a16 --quantize_io",
+  "part3_of_3||token_ar1_cl4096_3_of_3": "--target_runtime qnn_dlc --qairt_version 2.45 --output_names logits,past_key_14_out,past_value_14_out,past_key_15_out,past_value_15_out,past_key_16_out,past_value_16_out,past_key_17_out,past_value_17_out,past_key_18_out,past_value_18_out,past_key_19_out,past_value_19_out,past_key_20_out,past_value_20_out,past_key_21_out,past_value_21_out,past_key_22_out,past_value_22_out,past_key_23_out,past_value_23_out,past_key_24_out,past_value_24_out,past_key_25_out,past_value_25_out,past_key_26_out,past_value_26_out,past_key_27_out,past_value_27_out --quantize_io --qnn_options context_enable_graphs=token_ar1_cl4096_3_of_3  --quantize_full_type w8a16 --quantize_io"
+ },
+ "link_options": " --qairt_version 2.45",
+ "profile_options": {
+  "part1_of_3||prompt_ar128_cl4096_1_of_3": " --qairt_version 2.45 --qnn_options context_enable_graphs=prompt_ar128_cl4096_1_of_3 --max_profiler_iterations 50",
+  "part1_of_3||token_ar1_cl4096_1_of_3": " --qairt_version 2.45 --qnn_options context_enable_graphs=token_ar1_cl4096_1_of_3 --max_profiler_iterations 50",
+  "part2_of_3||prompt_ar128_cl4096_2_of_3": " --qairt_version 2.45 --qnn_options context_enable_graphs=prompt_ar128_cl4096_2_of_3 --max_profiler_iterations 50",
+  "part2_of_3||token_ar1_cl4096_2_of_3": " --qairt_version 2.45 --qnn_options context_enable_graphs=token_ar1_cl4096_2_of_3 --max_profiler_iterations 50",
+  "part3_of_3||prompt_ar128_cl4096_3_of_3": " --qairt_version 2.45 --qnn_options context_enable_graphs=prompt_ar128_cl4096_3_of_3 --max_profiler_iterations 50",
+  "part3_of_3||token_ar1_cl4096_3_of_3": " --qairt_version 2.45 --qnn_options context_enable_graphs=token_ar1_cl4096_3_of_3 --max_profiler_iterations 50"
+ },
+ "shared_source": true,
+ "peak_gb_total": 16.8,
+ "total_seconds": 57.4
+}

@@ -1,0 +1,54 @@
+{
+ "j56onme05": {
+  "device": "Samsung Galaxy S25 (Family)",
+  "os": "15",
+  "attributes": [
+   "chipset:qualcomm-snapdragon-8-elite-for-galaxy",
+   "chipset:sm8750-ac",
+   "hexagon:v79"
+  ],
+  "layers_by_compute_unit": {
+   "NPU": 3
+  }
+ },
+ "j5q431r4g": {
+  "device": "Samsung Galaxy S25 (Family)",
+  "os": "15",
+  "attributes": [
+   "chipset:qualcomm-snapdragon-8-elite-for-galaxy",
+   "chipset:sm8750-ac",
+   "hexagon:v79"
+  ],
+  "layers_by_compute_unit": {
+   "NPU": 3
+  }
+ },
+ "j5m93kjyg": {
+  "device": "Samsung Galaxy S25 (Family)",
+  "os": "15",
+  "layers_by_compute_unit": {
+   "NPU": 7577
+  }
+ },
+ "jgd6o4wkp": {
+  "device": "Samsung Galaxy S25 (Family)",
+  "os": "15",
+  "layers_by_compute_unit": {
+   "NPU": 7535
+  }
+ },
+ "jgzzrq8og": {
+  "device": "Samsung Galaxy S25 (Family)",
+  "os": "15",
+  "layers_by_compute_unit": {
+   "NPU": 7584
+  }
+ },
+ "jpy86kq8g": {
+  "device": "Samsung Galaxy S25 (Family)",
+  "os": "15",
+  "layers_by_compute_unit": {
+   "NPU": 7540
+  }
+ }
+}

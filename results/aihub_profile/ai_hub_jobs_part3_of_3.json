@@ -1,0 +1,259 @@
+{
+ "qai_hub_client": "0.56.0",
+ "device": "Samsung Galaxy S25 (Family)",
+ "part": "part3_of_3",
+ "started_unix": 1791410526.2021744,
+ "uploads": {
+  "part3_of_3__prompt_ar128_cl4096_3_of_3/Llama3_2_3B_Part3_Of_3_w4a16.aimet": {
+   "model_id": "mn44vo1zn",
+   "seconds": 812.0
+  }
+ },
+ "compile": {
+  "part3_of_3||prompt_ar128_cl4096_3_of_3": {
+   "options": "--target_runtime qnn_dlc --qairt_version 2.45 --output_names logits,past_key_14_out,past_value_14_out,past_key_15_out,past_value_15_out,past_key_16_out,past_value_16_out,past_key_17_out,past_value_17_out,past_key_18_out,past_value_18_out,past_key_19_out,past_value_19_out,past_key_20_out,past_value_20_out,past_key_21_out,past_value_21_out,past_key_22_out,past_value_22_out,past_key_23_out,past_value_23_out,past_key_24_out,past_value_24_out,past_key_25_out,past_value_25_out,past_key_26_out,past_value_26_out,past_key_27_out,past_value_27_out --quantize_io --qnn_options context_enable_graphs=prompt_ar128_cl4096_3_of_3  --quantize_full_type w8a16 --quantize_io",
+   "job_id": "jpy86k14g",
+   "url": "https://workbench.aihub.qualcomm.com/jobs/jpy86k14g/",
+   "status": "SUCCESS",
+   "message": "",
+   "seconds_waited": 606.8
+  },
+  "part3_of_3||token_ar1_cl4096_3_of_3": {
+   "options": "--target_runtime qnn_dlc --qairt_version 2.45 --output_names logits,past_key_14_out,past_value_14_out,past_key_15_out,past_value_15_out,past_key_16_out,past_value_16_out,past_key_17_out,past_value_17_out,past_key_18_out,past_value_18_out,past_key_19_out,past_value_19_out,past_key_20_out,past_value_20_out,past_key_21_out,past_value_21_out,past_key_22_out,past_value_22_out,past_key_23_out,past_value_23_out,past_key_24_out,past_value_24_out,past_key_25_out,past_value_25_out,past_key_26_out,past_value_26_out,past_key_27_out,past_value_27_out --quantize_io --qnn_options context_enable_graphs=token_ar1_cl4096_3_of_3  --quantize_full_type w8a16 --quantize_io",
+   "job_id": "jp8jzd285",
+   "url": "https://workbench.aihub.qualcomm.com/jobs/jp8jzd285/",
+   "status": "SUCCESS",
+   "message": "",
+   "seconds_waited": 606.6
+  }
+ },
+ "link": {
+  "options": " --qairt_version 2.45",
+  "job_id": "jgzzrq7kg",
+  "url": "https://workbench.aihub.qualcomm.com/jobs/jgzzrq7kg/",
+  "status": "SUCCESS",
+  "message": "",
+  "seconds_waited": 534.7
+ },
+ "profile": {
+  "part3_of_3||prompt_ar128_cl4096_3_of_3": {
+   "options": " --qairt_version 2.45 --qnn_options context_enable_graphs=prompt_ar128_cl4096_3_of_3 --max_profiler_iterations 50",
+   "job_id": "jgzzrq8og",
+   "url": "https://workbench.aihub.qualcomm.com/jobs/jgzzrq8og/",
+   "status": "SUCCESS",
+   "message": "",
+   "seconds_waited": 267.0,
+   "execution_summary": {
+    "estimated_inference_time": 40567,
+    "estimated_inference_peak_memory": 352849920,
+    "first_load_time": 330701,
+    "first_load_peak_memory": 114716672,
+    "warm_load_time": 320880,
+    "warm_load_peak_memory": 132919296,
+    "compile_time": 0,
+    "compile_peak_memory": 0,
+    "compile_memory_increase_range": [
+     0,
+     0
+    ],
+    "compile_memory_peak_range": [
+     0,
+     0
+    ],
+    "first_load_memory_increase_range": [
+     33563520,
+     42918528
+    ],
+    "first_load_memory_peak_range": [
+     5304320,
+     14659328
+    ],
+    "warm_load_memory_increase_range": [
+     29700784,
+     40334096
+    ],
+    "warm_load_memory_peak_range": [
+     7155712,
+     17789024
+    ],
+    "inference_memory_increase_range": [
+     0,
+     2621168
+    ],
+    "inference_memory_peak_range": [
+     113610752,
+     127482400
+    ],
+    "all_compile_times": [],
+    "all_first_load_times": [
+     330701
+    ],
+    "all_warm_load_times": [
+     320880
+    ],
+    "all_inference_times": [
+     42669,
+     43408,
+     45534,
+     44867,
+     44373,
+     44483,
+     42864,
+     43355,
+     45223,
+     44166,
+     44047,
+     44428,
+     44128,
+     41738,
+     44260,
+     43508,
+     44424,
+     41597,
+     43318,
+     43428,
+     43768,
+     43536,
+     43632,
+     44220,
+     45362,
+     43409,
+     43667,
+     44246,
+     43308,
+     44023,
+     43651,
+     43453,
+     43277,
+     44471,
+     43669,
+     40567,
+     43377,
+     43639,
+     44692,
+     47599,
+     47826,
+     47606,
+     48061,
+     52581,
+     47481,
+     51388,
+     46222,
+     48346,
+     49402,
+     54613
+    ]
+   }
+  },
+  "part3_of_3||token_ar1_cl4096_3_of_3": {
+   "options": " --qairt_version 2.45 --qnn_options context_enable_graphs=token_ar1_cl4096_3_of_3 --max_profiler_iterations 50",
+   "job_id": "jpy86kq8g",
+   "url": "https://workbench.aihub.qualcomm.com/jobs/jpy86kq8g/",
+   "status": "SUCCESS",
+   "message": "",
+   "seconds_waited": 276.8,
+   "execution_summary": {
+    "estimated_inference_time": 25042,
+    "estimated_inference_peak_memory": 269295616,
+    "first_load_time": 289145,
+    "first_load_peak_memory": 122621952,
+    "warm_load_time": 283388,
+    "warm_load_peak_memory": 143101952,
+    "compile_time": 0,
+    "compile_peak_memory": 0,
+    "compile_memory_increase_range": [
+     0,
+     0
+    ],
+    "compile_memory_peak_range": [
+     0,
+     0
+    ],
+    "first_load_memory_increase_range": [
+     0,
+     3768096
+    ],
+    "first_load_memory_peak_range": [
+     2699264,
+     12066640
+    ],
+    "warm_load_memory_increase_range": [
+     0,
+     5109856
+    ],
+    "warm_load_memory_peak_range": [
+     2637824,
+     13533808
+    ],
+    "inference_memory_increase_range": [
+     0,
+     0
+    ],
+    "inference_memory_peak_range": [
+     45789184,
+     58436880
+    ],
+    "all_compile_times": [],
+    "all_first_load_times": [
+     289145
+    ],
+    "all_warm_load_times": [
+     283388
+    ],
+    "all_inference_times": [
+     27052,
+     26980,
+     26694,
+     26211,
+     25090,
+     30011,
+     27798,
+     25949,
+     26075,
+     27069,
+     29789,
+     27380,
+     29103,
+     26873,
+     29280,
+     32975,
+     26558,
+     27037,
+     26253,
+     26225,
+     28486,
+     26481,
+     27792,
+     26672,
+     26837,
+     29584,
+     26387,
+     26064,
+     26383,
+     25042,
+     26271,
+     27943,
+     29341,
+     26539,
+     26945,
+     29566,
+     26667,
+     28146,
+     29427,
+     27116,
+     26542,
+     28455,
+     29488,
+     26468,
+     29160,
+     26702,
+     29220,
+     26510,
+     28907,
+     27026
+    ]
+   }
+  }
+ },
+ "finished_unix": 1791413630.6232696
+}
