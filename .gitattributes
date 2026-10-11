@@ -1,0 +1,3 @@
+*.sh text eol=lf
+*.py text eol=lf
+data/toolset/v1/toolset_v1.jsonl -text

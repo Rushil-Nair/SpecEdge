@@ -1,0 +1,17 @@
+# Not published
+/_not_published/
+
+# Model files and build trees are rebuilt or downloaded by scripts; results/ is committed.
+*.gguf
+*.safetensors
+*.bin
+/models/
+build/
+__pycache__/
+*.pyc
+.venv/
+
+# Raw downloads and derived prompt samples (the xLAM source is gated; do not redistribute)
+/data/raw/
+# Server logs are large; the result JSON files are what is committed
+*.server.log

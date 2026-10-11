@@ -1,0 +1,26 @@
+{
+ "version": 1,
+ "frozen_on": "2026-10-08",
+ "frozen_by": "2026-10-08: the 591-task candidate frozen as version 1, without multi-turn tasks",
+ "file": "toolset_v1.jsonl",
+ "sha256": "4770a3238712c4bd0d6dba8ac37769868c4298874cfe46e42b749a04e3d799de",
+ "tasks": 591,
+ "by_type": {
+  "no_tool": 90,
+  "call": 371,
+  "ask": 130
+ },
+ "by_source": {
+  "When2Call test_mcq": 279,
+  "xlam-function-calling-60k": 312
+ },
+ "tags": {
+  "multi_call": 156,
+  "bfcl_alternatives": 59,
+  "decimal": 17
+ },
+ "builder": "data/build_toolset_v1.py, seed 2026",
+ "dropped": "dropped_unstated_values.json (29 tasks)",
+ "not_in_this_set": "multi-turn tasks; measured by the 100 scripted agent tasks of part 6",
+ "open": "scorer agreement with hand labels on 50 sampled tasks is not done yet; the dropped-task list was checked by an LLM reviewer, not by hand"
+}

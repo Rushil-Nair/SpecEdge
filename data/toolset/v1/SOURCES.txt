@@ -1,0 +1,18 @@
+toolset_v1.jsonl: 591 tasks derived from two datasets, both licensed CC-BY-4.0.
+
+- xLAM function-calling 60k, Salesforce (paper: "APIGen: Automated Pipeline for Generating
+  Verifiable and Diverse Function-Calling Datasets").
+  https://huggingface.co/datasets/Salesforce/xlam-function-calling-60k
+  312 tasks (call tasks). Tool schemas converted to JSON schema; tasks whose expected values
+  the question never states were dropped (dropped_unstated_values.json).
+
+- When2Call, NVIDIA (paper: "When2Call: When (not) to Call Tools").
+  https://huggingface.co/datasets/nvidia/When2Call
+  279 tasks from the test_mcq split (call, should-ask and no-tool-fits tasks). Python type
+  names in the schemas mapped to JSON schema type names. When2Call's test_mcq requests are
+  built on BFCL v2 Live (Berkeley Function Calling Leaderboard, Apache 2.0): 221 tasks from
+  Live Multiple and 58 from Live Simple.
+
+Changes: tasks were sampled with a fixed seed, reformatted into one JSON object per line and
+labelled by task type, as in data/build_toolset_v1.py. The file is frozen; FROZEN.json holds
+its SHA-256.
