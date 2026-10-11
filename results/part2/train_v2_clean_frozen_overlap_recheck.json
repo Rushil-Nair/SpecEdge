@@ -1,0 +1,11 @@
+{
+ "training_file": "/workspace/data/train_v2_clean/train.jsonl",
+ "examples": 33252,
+ "test_file": "data/toolset/v1/toolset_v1.jsonl",
+ "test_sha256": "4770a3238712c4bd0d6dba8ac37769868c4298874cfe46e42b749a04e3d799de",
+ "test_tool_names": 716,
+ "examples_naming_a_test_tool": 0,
+ "examples_with_a_test_question": 0,
+ "first_hits": [],
+ "method": "text search of every written example: a test tool's name as a name, and each user message compared with the test questions"
+}

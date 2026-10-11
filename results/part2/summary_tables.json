@@ -1,0 +1,432 @@
+{
+ "part2/base_3b_f16_v1.json": {
+  "all_old": [
+   291,
+   591
+  ],
+  "all_new": [
+   287,
+   591
+  ],
+  "with_tools_new": [
+   272,
+   572
+  ],
+  "call_new": [
+   272,
+   371
+  ],
+  "ask_no_call_old": [
+   0,
+   130
+  ],
+  "ask_no_call_new": [
+   0,
+   130
+  ],
+  "ask_with_question": [
+   0,
+   130
+  ],
+  "no_tool_shown_new": [
+   0,
+   71
+  ],
+  "no_tool_none_shown_new": [
+   15,
+   19
+  ],
+  "no_tool_old": [
+   19,
+   90
+  ],
+  "at_limit": 4
+ },
+ "part2/base_3b_f16_system_v1.json": {
+  "all_old": [
+   286,
+   591
+  ],
+  "all_new": [
+   282,
+   591
+  ],
+  "with_tools_new": [
+   267,
+   572
+  ],
+  "call_new": [
+   267,
+   371
+  ],
+  "ask_no_call_old": [
+   0,
+   130
+  ],
+  "ask_no_call_new": [
+   0,
+   130
+  ],
+  "ask_with_question": [
+   0,
+   130
+  ],
+  "no_tool_shown_new": [
+   0,
+   71
+  ],
+  "no_tool_none_shown_new": [
+   15,
+   19
+  ],
+  "no_tool_old": [
+   19,
+   90
+  ],
+  "at_limit": 4
+ },
+ "part2/base_1b_f16_v1.json": {
+  "all_old": [
+   226,
+   591
+  ],
+  "all_new": [
+   221,
+   591
+  ],
+  "with_tools_new": [
+   205,
+   572
+  ],
+  "call_new": [
+   204,
+   371
+  ],
+  "ask_no_call_old": [
+   3,
+   130
+  ],
+  "ask_no_call_new": [
+   1,
+   130
+  ],
+  "ask_with_question": [
+   0,
+   130
+  ],
+  "no_tool_shown_new": [
+   0,
+   71
+  ],
+  "no_tool_none_shown_new": [
+   16,
+   19
+  ],
+  "no_tool_old": [
+   19,
+   90
+  ],
+  "at_limit": 57
+ },
+ "part2/mine_f16_v1.json": {
+  "all_old": [
+   364,
+   591
+  ],
+  "all_new": [
+   364,
+   591
+  ],
+  "with_tools_new": [
+   345,
+   572
+  ],
+  "call_new": [
+   316,
+   371
+  ],
+  "ask_no_call_old": [
+   0,
+   130
+  ],
+  "ask_no_call_new": [
+   0,
+   130
+  ],
+  "ask_with_question": [
+   0,
+   130
+  ],
+  "no_tool_shown_new": [
+   29,
+   71
+  ],
+  "no_tool_none_shown_new": [
+   19,
+   19
+  ],
+  "no_tool_old": [
+   48,
+   90
+  ],
+  "at_limit": 0
+ },
+ "part2/mine_f16_system_v1.json": {
+  "all_old": [
+   398,
+   591
+  ],
+  "all_new": [
+   398,
+   591
+  ],
+  "with_tools_new": [
+   379,
+   572
+  ],
+  "call_new": [
+   312,
+   371
+  ],
+  "ask_no_call_old": [
+   29,
+   130
+  ],
+  "ask_no_call_new": [
+   29,
+   130
+  ],
+  "ask_with_question": [
+   23,
+   130
+  ],
+  "no_tool_shown_new": [
+   38,
+   71
+  ],
+  "no_tool_none_shown_new": [
+   19,
+   19
+  ],
+  "no_tool_old": [
+   57,
+   90
+  ],
+  "at_limit": 0
+ },
+ "part2/mine_multistep_f16_v1.json": {
+  "all_old": [
+   391,
+   591
+  ],
+  "all_new": [
+   391,
+   591
+  ],
+  "with_tools_new": [
+   372,
+   572
+  ],
+  "call_new": [
+   314,
+   371
+  ],
+  "ask_no_call_old": [
+   26,
+   130
+  ],
+  "ask_no_call_new": [
+   26,
+   130
+  ],
+  "ask_with_question": [
+   22,
+   130
+  ],
+  "no_tool_shown_new": [
+   32,
+   71
+  ],
+  "no_tool_none_shown_new": [
+   19,
+   19
+  ],
+  "no_tool_old": [
+   51,
+   90
+  ],
+  "at_limit": 0
+ },
+ "part2/mine_multistep_f16_system_v1.json": {
+  "all_old": [
+   394,
+   591
+  ],
+  "all_new": [
+   394,
+   591
+  ],
+  "with_tools_new": [
+   375,
+   572
+  ],
+  "call_new": [
+   316,
+   371
+  ],
+  "ask_no_call_old": [
+   27,
+   130
+  ],
+  "ask_no_call_new": [
+   27,
+   130
+  ],
+  "ask_with_question": [
+   24,
+   130
+  ],
+  "no_tool_shown_new": [
+   32,
+   71
+  ],
+  "no_tool_none_shown_new": [
+   19,
+   19
+  ],
+  "no_tool_old": [
+   51,
+   90
+  ],
+  "at_limit": 0
+ },
+ "part2/mine_recovery_f16_v1.json": {
+  "all_old": [
+   388,
+   591
+  ],
+  "all_new": [
+   388,
+   591
+  ],
+  "with_tools_new": [
+   369,
+   572
+  ],
+  "call_new": [
+   316,
+   371
+  ],
+  "ask_no_call_old": [
+   26,
+   130
+  ],
+  "ask_no_call_new": [
+   26,
+   130
+  ],
+  "ask_with_question": [
+   23,
+   130
+  ],
+  "no_tool_shown_new": [
+   27,
+   71
+  ],
+  "no_tool_none_shown_new": [
+   19,
+   19
+  ],
+  "no_tool_old": [
+   46,
+   90
+  ],
+  "at_limit": 0
+ },
+ "part2/mine_recovery_f16_system_v1.json": {
+  "all_old": [
+   389,
+   591
+  ],
+  "all_new": [
+   389,
+   591
+  ],
+  "with_tools_new": [
+   370,
+   572
+  ],
+  "call_new": [
+   315,
+   371
+  ],
+  "ask_no_call_old": [
+   27,
+   130
+  ],
+  "ask_no_call_new": [
+   27,
+   130
+  ],
+  "ask_with_question": [
+   24,
+   130
+  ],
+  "no_tool_shown_new": [
+   28,
+   71
+  ],
+  "no_tool_none_shown_new": [
+   19,
+   19
+  ],
+  "no_tool_old": [
+   47,
+   90
+  ],
+  "at_limit": 0
+ },
+ "part2/xlam2_3b_f16_v1.json": {
+  "all_old": [
+   371,
+   591
+  ],
+  "all_new": [
+   371,
+   591
+  ],
+  "with_tools_new": [
+   366,
+   572
+  ],
+  "call_new": [
+   294,
+   371
+  ],
+  "ask_no_call_old": [
+   36,
+   130
+  ],
+  "ask_no_call_new": [
+   36,
+   130
+  ],
+  "ask_with_question": [
+   30,
+   130
+  ],
+  "no_tool_shown_new": [
+   36,
+   71
+  ],
+  "no_tool_none_shown_new": [
+   5,
+   19
+  ],
+  "no_tool_old": [
+   41,
+   90
+  ],
+  "at_limit": 0
+ }
+}

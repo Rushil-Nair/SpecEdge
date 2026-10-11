@@ -1,0 +1,26 @@
+{
+ "test_file": "data/toolset/v1/toolset_v1.jsonl",
+ "test_sha256": "4770a3238712c4bd0d6dba8ac37769868c4298874cfe46e42b749a04e3d799de",
+ "test_tasks": 591,
+ "test_tool_names": 716,
+ "sources": {
+  "xlam-function-calling-60k": {
+   "rows": 60000,
+   "left_out_shared_tool": 36532,
+   "left_out_same_question": 0,
+   "usable": 23468
+  },
+  "When2Call train_sft": {
+   "rows": 15000,
+   "left_out_shared_tool": 6925,
+   "left_out_same_question": 14,
+   "left_out_unexpected_shape": 0,
+   "usable": 8061,
+   "usable_by_kind": {
+    "no_call": 8061
+   }
+  }
+ },
+ "examples_written": 20000,
+ "examples_overlapping_the_test_set": 0
+}

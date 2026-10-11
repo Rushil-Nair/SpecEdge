@@ -1,0 +1,566 @@
+{
+ "file_checked": "/workspace/data/train_v3_recovery_before_name_check/train.jsonl",
+ "test_file": "data/toolset/v1/toolset_v1.jsonl",
+ "frozen_test_tools": 716,
+ "agent_contact_files": [
+  "/workspace/agent_check/agent/tools/contacts.json",
+  "/workspace/agent_check/agent/tools/contacts_heldout.json"
+ ],
+ "agent_contact_names_and_ids": 48,
+ "agent_tools": [
+  "search_contacts",
+  "list_events",
+  "create_event",
+  "cancel_event",
+  "add_expense",
+  "send_message"
+ ],
+ "agent_questions": 200,
+ "agent_task_files": [
+  "/workspace/agent_check/agent/tasks/tasks_v1.jsonl",
+  "/workspace/agent_check/agent/tasks/heldout_v1.jsonl"
+ ],
+ "normalisation": "lower case; underscores, hyphens and spaces removed",
+ "examples_before": 45299,
+ "examples_dropped": 872,
+ "examples_kept": 44427,
+ "dropped_by_reason": {
+  "tool name like a frozen-test tool": 861,
+  "agent contact name or id": 7,
+  "tool name like an agent tool": 4
+ },
+ "dropped_by_source": {
+  "when2call": 83,
+  "glaive": 172,
+  "toolace": 391,
+  "xlam": 221,
+  "recovery": 5
+ },
+ "distinct_name_pairs_matched": 85,
+ "of_those_spelled_identically": 1,
+ "name_pairs_matched": [
+  {
+   "in_training": "get_definition",
+   "matches": "getdefinition",
+   "of": "frozen test set",
+   "examples": 162
+  },
+  {
+   "in_training": "autocomplete",
+   "matches": "auto_complete",
+   "of": "frozen test set",
+   "examples": 98
+  },
+  {
+   "in_training": "Search",
+   "matches": "search",
+   "of": "frozen test set",
+   "examples": 52
+  },
+  {
+   "in_training": "qrcode",
+   "matches": "qr_code",
+   "of": "frozen test set",
+   "examples": 51
+  },
+  {
+   "in_training": "getrandomuser",
+   "matches": "get_random_user",
+   "of": "frozen test set",
+   "examples": 33
+  },
+  {
+   "in_training": "reversegeocode",
+   "matches": "reverse_geocode",
+   "of": "frozen test set",
+   "examples": 29
+  },
+  {
+   "in_training": "getproducts",
+   "matches": "get_products",
+   "of": "frozen test set",
+   "examples": 21
+  },
+  {
+   "in_training": "iplookup",
+   "matches": "ip_lookup",
+   "of": "frozen test set",
+   "examples": 19
+  },
+  {
+   "in_training": "auto-complete",
+   "matches": "auto_complete",
+   "of": "frozen test set",
+   "examples": 19
+  },
+  {
+   "in_training": "loginUser",
+   "matches": "loginuser",
+   "of": "frozen test set",
+   "examples": 19
+  },
+  {
+   "in_training": "Facilities Lookup",
+   "matches": "facilities_lookup",
+   "of": "frozen test set",
+   "examples": 18
+  },
+  {
+   "in_training": "stock_price",
+   "matches": "stockprice",
+   "of": "frozen test set",
+   "examples": 17
+  },
+  {
+   "in_training": "qualifyingresults",
+   "matches": "qualifying_results",
+   "of": "frozen test set",
+   "examples": 14
+  },
+  {
+   "in_training": "Autocomplete",
+   "matches": "auto_complete",
+   "of": "frozen test set",
+   "examples": 13
+  },
+  {
+   "in_training": "team_image",
+   "matches": "teamimage",
+   "of": "frozen test set",
+   "examples": 13
+  },
+  {
+   "in_training": "get_image",
+   "matches": "getimage",
+   "of": "frozen test set",
+   "examples": 12
+  },
+  {
+   "in_training": "Consulta Estabelecimento",
+   "matches": "consulta_estabelecimento",
+   "of": "frozen test set",
+   "examples": 11
+  },
+  {
+   "in_training": "Search Restaurants by Local Authority",
+   "matches": "search_restaurants_by_local_authority",
+   "of": "frozen test set",
+   "examples": 11
+  },
+  {
+   "in_training": "Get Image",
+   "matches": "getimage",
+   "of": "frozen test set",
+   "examples": 10
+  },
+  {
+   "in_training": "Get Token Price",
+   "matches": "get_token_price",
+   "of": "frozen test set",
+   "examples": 10
+  },
+  {
+   "in_training": "Get Device Asset by Identifier",
+   "matches": "get_device_asset_by_identifier",
+   "of": "frozen test set",
+   "examples": 10
+  },
+  {
+   "in_training": "get_current_time",
+   "matches": "getCurrentTime",
+   "of": "frozen test set",
+   "examples": 10
+  },
+  {
+   "in_training": "getZipCodeByCounty",
+   "matches": "getzipcodebycounty",
+   "of": "frozen test set",
+   "examples": 9
+  },
+  {
+   "in_training": "Reverse Geocode",
+   "matches": "reverse_geocode",
+   "of": "frozen test set",
+   "examples": 9
+  },
+  {
+   "in_training": "EPS Revisions",
+   "matches": "eps_revisions",
+   "of": "frozen test set",
+   "examples": 9
+  },
+  {
+   "in_training": "Verify Email",
+   "matches": "verify_email",
+   "of": "frozen test set",
+   "examples": 9
+  },
+  {
+   "in_training": "Get Product Details",
+   "matches": "get_product_details",
+   "of": "frozen test set",
+   "examples": 7
+  },
+  {
+   "in_training": "Get Amazon Search Results",
+   "matches": "get_amazon_search_results",
+   "of": "frozen test set",
+   "examples": 6
+  },
+  {
+   "in_training": "Get Product Detail",
+   "matches": "get_product_detail",
+   "of": "frozen test set",
+   "examples": 6
+  },
+  {
+   "in_training": "Search News",
+   "matches": "search_news",
+   "of": "frozen test set",
+   "examples": 6
+  },
+  {
+   "in_training": "Earnings",
+   "matches": "earnings",
+   "of": "frozen test set",
+   "examples": 6
+  },
+  {
+   "in_training": "Get Addresses by Postcode",
+   "matches": "get_addresses_by_postcode",
+   "of": "frozen test set",
+   "examples": 6
+  },
+  {
+   "in_training": "GetFutureEvents",
+   "matches": "getfutureevents",
+   "of": "frozen test set",
+   "examples": 6
+  },
+  {
+   "in_training": "Produce Mixy Words List",
+   "matches": "produce_mixy_words_list",
+   "of": "frozen test set",
+   "examples": 6
+  },
+  {
+   "in_training": "Latest Exchange Rates",
+   "matches": "latest_exchange_rates",
+   "of": "frozen test set",
+   "examples": 6
+  },
+  {
+   "in_training": "fetchLatestNAV",
+   "matches": "fetchlatestnav",
+   "of": "frozen test set",
+   "examples": 6
+  },
+  {
+   "in_training": "getListBySecuritiesCode",
+   "matches": "getlistbysecuritiescode",
+   "of": "frozen test set",
+   "examples": 6
+  },
+  {
+   "in_training": "AUTOComplete",
+   "matches": "auto_complete",
+   "of": "frozen test set",
+   "examples": 6
+  },
+  {
+   "in_training": "Fastest Laps Result",
+   "matches": "fastest_laps_result",
+   "of": "frozen test set",
+   "examples": 6
+  },
+  {
+   "in_training": "GetQRcode",
+   "matches": "getqrcode",
+   "of": "frozen test set",
+   "examples": 5
+  },
+  {
+   "in_training": "getCountryByIP",
+   "matches": "getcountrybyip",
+   "of": "frozen test set",
+   "examples": 5
+  },
+  {
+   "in_training": "Get Synthesize",
+   "matches": "get_synthesize",
+   "of": "frozen test set",
+   "examples": 5
+  },
+  {
+   "in_training": "GetCurrentByValueGrowthMomentum",
+   "matches": "getcurrentbyvaluegrowthmomentum",
+   "of": "frozen test set",
+   "examples": 5
+  },
+  {
+   "in_training": "Get Order",
+   "matches": "get_order",
+   "of": "frozen test set",
+   "examples": 5
+  },
+  {
+   "in_training": "GetPeople",
+   "matches": "getpeople",
+   "of": "frozen test set",
+   "examples": 5
+  },
+  {
+   "in_training": "StockPrice",
+   "matches": "stockprice",
+   "of": "frozen test set",
+   "examples": 5
+  },
+  {
+   "in_training": "getCompanies",
+   "matches": "getcompanies",
+   "of": "frozen test set",
+   "examples": 5
+  },
+  {
+   "in_training": "Query by FSA Code",
+   "matches": "query_by_fsa_code",
+   "of": "frozen test set",
+   "examples": 5
+  },
+  {
+   "in_training": "ReadMail",
+   "matches": "readmail",
+   "of": "frozen test set",
+   "examples": 5
+  },
+  {
+   "in_training": "Retrieve Aggregated Loan Offers",
+   "matches": "retrieve_aggregated_loan_offers",
+   "of": "frozen test set",
+   "examples": 5
+  },
+  {
+   "in_training": "Get Companies",
+   "matches": "getcompanies",
+   "of": "frozen test set",
+   "examples": 5
+  },
+  {
+   "in_training": "Generate Password",
+   "matches": "generate_password",
+   "of": "frozen test set",
+   "examples": 5
+  },
+  {
+   "in_training": "Video comments",
+   "matches": "video_comments",
+   "of": "frozen test set",
+   "examples": 5
+  },
+  {
+   "in_training": "Get Pictionary Word",
+   "matches": "get_pictionary_word",
+   "of": "frozen test set",
+   "examples": 5
+  },
+  {
+   "in_training": "Get Synonyms",
+   "matches": "get_synonyms",
+   "of": "frozen test set",
+   "examples": 5
+  },
+  {
+   "in_training": "Get Product",
+   "matches": "get_product",
+   "of": "frozen test set",
+   "examples": 5
+  },
+  {
+   "in_training": "getOrderById",
+   "matches": "getorderbyid",
+   "of": "frozen test set",
+   "examples": 5
+  },
+  {
+   "in_training": "Historical Rates",
+   "matches": "historical_rates",
+   "of": "frozen test set",
+   "examples": 4
+  },
+  {
+   "in_training": "AutoComplete",
+   "matches": "auto_complete",
+   "of": "frozen test set",
+   "examples": 4
+  },
+  {
+   "in_training": "Get RSI by Pairs",
+   "matches": "get_rsi_by_pairs",
+   "of": "frozen test set",
+   "examples": 4
+  },
+  {
+   "in_training": "T3MA",
+   "matches": "t3ma",
+   "of": "frozen test set",
+   "examples": 4
+  },
+  {
+   "in_training": "Get Product Reviews",
+   "matches": "get_product_reviews",
+   "of": "frozen test set",
+   "examples": 4
+  },
+  {
+   "in_training": "Real-Time Price",
+   "matches": "real_time_price",
+   "of": "frozen test set",
+   "examples": 4
+  },
+  {
+   "in_training": "Classify",
+   "matches": "classify",
+   "of": "frozen test set",
+   "examples": 4
+  },
+  {
+   "in_training": "getProducts",
+   "matches": "get_products",
+   "of": "frozen test set",
+   "examples": 4
+  },
+  {
+   "in_training": "Get Products",
+   "matches": "get_products",
+   "of": "frozen test set",
+   "examples": 4
+  },
+  {
+   "in_training": "Send Message",
+   "matches": "send_message",
+   "of": "agent",
+   "examples": 4
+  },
+  {
+   "in_training": "Market Auto-Complete",
+   "matches": "market_auto_complete",
+   "of": "frozen test set",
+   "examples": 4
+  },
+  {
+   "in_training": "GetFavouritesChamps",
+   "matches": "getfavouriteschamps",
+   "of": "frozen test set",
+   "examples": 4
+  },
+  {
+   "in_training": "Get Geo Location Of IP Address",
+   "matches": "get_geo_location_of_ip_address",
+   "of": "frozen test set",
+   "examples": 4
+  },
+  {
+   "in_training": "Consumer Phone Search",
+   "matches": "consumer_phone_search",
+   "of": "frozen test set",
+   "examples": 4
+  },
+  {
+   "in_training": "Web Search",
+   "matches": "web_search",
+   "of": "frozen test set",
+   "examples": 4
+  },
+  {
+   "in_training": "LOOKUP",
+   "matches": "lookup",
+   "of": "frozen test set",
+   "examples": 3
+  },
+  {
+   "in_training": "Get All Players",
+   "matches": "get_all_players",
+   "of": "frozen test set",
+   "examples": 3
+  },
+  {
+   "in_training": "Search Countries By Idd",
+   "matches": "search_countries_by_idd",
+   "of": "frozen test set",
+   "examples": 3
+  },
+  {
+   "in_training": "imageSearch",
+   "matches": "image_search",
+   "of": "frozen test set",
+   "examples": 3
+  },
+  {
+   "in_training": "GetNews",
+   "matches": "get_news",
+   "of": "frozen test set",
+   "examples": 3
+  },
+  {
+   "in_training": "Search Pins",
+   "matches": "search_pins",
+   "of": "frozen test set",
+   "examples": 3
+  },
+  {
+   "in_training": "Get IP Location",
+   "matches": "get_ip_location",
+   "of": "frozen test set",
+   "examples": 3
+  },
+  {
+   "in_training": "IP Lookup",
+   "matches": "ip_lookup",
+   "of": "frozen test set",
+   "examples": 3
+  },
+  {
+   "in_training": "Get Random User",
+   "matches": "get_random_user",
+   "of": "frozen test set",
+   "examples": 3
+  },
+  {
+   "in_training": "Latest News",
+   "matches": "latest_news",
+   "of": "frozen test set",
+   "examples": 3
+  },
+  {
+   "in_training": "Realtime Weather API",
+   "matches": "realtime_weather_api",
+   "of": "frozen test set",
+   "examples": 3
+  },
+  {
+   "in_training": "getLatestByEdinetCode",
+   "matches": "getlatestbyedinetcode",
+   "of": "frozen test set",
+   "examples": 3
+  },
+  {
+   "in_training": "health",
+   "matches": "health",
+   "of": "frozen test set",
+   "examples": 1
+  }
+ ],
+ "kept_by_kind": {
+  "call": 20564,
+  "call_after_tool_result": 7273,
+  "text": 2968,
+  "no_call": 5917,
+  "text_after_tool_result": 7705
+ },
+ "kept_by_layout": {
+  "user": 22255,
+  "system": 22172
+ },
+ "kept_from_recovery_generator": 12042,
+ "second_count_on_the_written_file": 0
+}

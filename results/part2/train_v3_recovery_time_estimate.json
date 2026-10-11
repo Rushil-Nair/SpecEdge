@@ -1,0 +1,14 @@
+{
+ "new_file": "/workspace/data/train_v3_recovery/train.jsonl",
+ "new_tokens": 24116852,
+ "new_examples_used": 39880,
+ "new_examples_over_the_cut": 110,
+ "reference_file": "/workspace/data/train_v2_clean/train.jsonl",
+ "reference_tokens": 16833721,
+ "reference_examples_used": 33111,
+ "reference_examples_over_the_cut": 141,
+ "reference_minutes": 200.7,
+ "estimated_minutes": 287.5,
+ "limit_minutes": 300.0,
+ "over_the_limit": false
+}

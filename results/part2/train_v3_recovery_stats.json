@@ -1,0 +1,44 @@
+{
+ "seed": 2028,
+ "conversations": 1900,
+ "conversations_by_pattern": {
+  "recover_create": 286,
+  "lookup_create": 387,
+  "direct": 104,
+  "move": 271,
+  "ask": 178,
+  "recover_cancel": 205,
+  "partial": 205,
+  "lookup_cancel": 264
+ },
+ "conversations_by_topic": {
+  "library": 159,
+  "warehouse": 159,
+  "hotel": 159,
+  "support": 159,
+  "shipping": 158,
+  "courses": 158,
+  "vehicles": 158,
+  "subscriptions": 158,
+  "kitchen": 158,
+  "tracker": 158,
+  "playlists": 158,
+  "devices": 158
+ },
+ "examples_added_by_kind": {
+  "call_after_tool_result": 4380,
+  "text_after_tool_result": 1900,
+  "call": 1325
+ },
+ "layout_of_added_examples": {
+  "system": 3777,
+  "user": 3828
+ },
+ "examples_total": 40857,
+ "share_of_new_examples": 0.186,
+ "tokens_per_added_example_sample_of_500": {
+  "median": 1031,
+  "max": 1493
+ },
+ "calls_shown_only_as_context": 575
+}

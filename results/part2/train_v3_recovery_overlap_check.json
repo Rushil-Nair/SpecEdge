@@ -1,0 +1,17 @@
+{
+ "test_file": "data/toolset/v1/toolset_v1.jsonl",
+ "test_sha256": "4770a3238712c4bd0d6dba8ac37769868c4298874cfe46e42b749a04e3d799de",
+ "agent_file": "results/part2/agent_tasks_tools_and_questions.json",
+ "agent_commit": "dbeeea2737f1abda7a1af0c24f66ec84a4d3666b",
+ "new_tools": 72,
+ "new_tools_named_like_a_frozen_test_tool": [],
+ "new_tools_named_like_an_agent_tool": [],
+ "new_tools_that_are_held_out_tools": [],
+ "held_out_tools_named_like_a_test_or_agent_tool": [],
+ "new_user_messages_equal_to_a_test_or_agent_question": 0,
+ "lines_of_the_finished_file_naming_a_agent_or_held_out_tool": {},
+ "first_file": "/workspace/data/train_v2_clean/train.jsonl",
+ "first_file_examples": 33252,
+ "examples_added": 7605,
+ "examples_total": 40857
+}

@@ -1,0 +1,22 @@
+{
+ "seed": 2027,
+ "examples_total": 33275,
+ "examples_from_first_file": 20000,
+ "layout_of_added_examples": {
+  "system": 6557,
+  "user": 6718
+ },
+ "layout_of_first_file_examples": {
+  "user": 10004,
+  "system": 9996
+ },
+ "added_by_source_and_kind": {
+  "ToolACE / call": 942,
+  "ToolACE / call_after_tool_result": 313,
+  "ToolACE / text": 698,
+  "ToolACE / text_after_tool_result": 942,
+  "glaive-function-calling-v2 / call": 3971,
+  "glaive-function-calling-v2 / text": 2438,
+  "glaive-function-calling-v2 / text_after_tool_result": 3971
+ }
+}
