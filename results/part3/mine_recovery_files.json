@@ -1,0 +1,7 @@
+{"model": "mine_recovery", "source": "/workspace/runs/lora_r16_recovery/merged", "llama_cpp_commit": "f498f864fbc0472004ee1c3616c1188c68eb157f", "files": {
+  "F16": {"file": "mine_recovery-F16.gguf", "bytes": 6433687616, "sha256": "70c3c82daf764f330349c557997fb25dde94d460828aa97e1fac4ab1472fb92a"},
+  "Q8_0": {"file": "mine_recovery-Q8_0.gguf", "bytes": 3421898816, "sha256": "53513f21918012b6579e1300102bd966ed64f0f1ebc550c94ab17acda672b3cd"},
+  "Q5_K_M": {"file": "mine_recovery-Q5_K_M.gguf", "bytes": 2322153536, "sha256": "d5e214ed9ab1fac436c5a7621225f541a528b4b65ebaa784d440f6e125dab81b"},
+  "Q4_K_M": {"file": "mine_recovery-Q4_K_M.gguf", "bytes": 2019377216, "sha256": "c66f91b439a6537db02226d905cd8914155d432300688c7209ab20b7cc36d718"},
+  "Q4_0": {"file": "mine_recovery-Q4_0.gguf", "bytes": 1917190208, "sha256": "06d933328e140ae3b6913b4120a401379ecd95cd05ffe5ed3804c7ec46d11246"}
+}}
