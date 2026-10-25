@@ -97,6 +97,13 @@ instead (Qwen3-8B Q4_K_M, RTX 5090, 16 slots):
 Patch: `results/idle_slots/machine/idle_fix.patch`. Runs, diagnostic counters and output checks:
 `results/idle_slots/`. Not posted upstream yet.
 
+Why the split passes cost this much: decode at these batch sizes is limited by memory bandwidth,
+and every forward pass reads all the weights again (about 4.7 GB for Qwen3-8B Q4_K_M). At 1 user
+the server writes 228 tokens/s, an estimated 61% of the RTX 5090's 1,792 GB/s limit; before the
+fix an 8-user decode step took about 4 passes, after it about 1. These are estimates from bytes
+moved and rated bandwidth, not profiler measurements: `bench/idle_slots/roofline.py`, output in
+`results/idle_slots/roofline.md`.
+
 ## Repository layout
 
 | Folder | What |
